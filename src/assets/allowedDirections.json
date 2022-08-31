@@ -1,0 +1,3282 @@
+[
+  {
+    "id": 28,
+    "cityFromId": 1317,
+    "cityToId": 1476
+  },
+  {
+    "id": 118,
+    "cityFromId": 1365,
+    "cityToId": 1476
+  },
+  {
+    "id": 121,
+    "cityFromId": 1333,
+    "cityToId": 1476
+  },
+  {
+    "id": 181,
+    "cityFromId": 1352,
+    "cityToId": 1476
+  },
+  {
+    "id": 182,
+    "cityFromId": 1335,
+    "cityToId": 1476
+  },
+  {
+    "id": 203,
+    "cityFromId": 1321,
+    "cityToId": 1476
+  },
+  {
+    "id": 206,
+    "cityFromId": 1321,
+    "cityToId": 1475
+  },
+  {
+    "id": 300,
+    "cityFromId": 1375,
+    "cityToId": 1476
+  },
+  {
+    "id": 337,
+    "cityFromId": 1340,
+    "cityToId": 1476
+  },
+  {
+    "id": 396,
+    "cityFromId": 1332,
+    "cityToId": 1476
+  },
+  {
+    "id": 445,
+    "cityFromId": 1371,
+    "cityToId": 1476
+  },
+  {
+    "id": 450,
+    "cityFromId": 1371,
+    "cityToId": 1478
+  },
+  {
+    "id": 465,
+    "cityFromId": 1344,
+    "cityToId": 1476
+  },
+  {
+    "id": 490,
+    "cityFromId": 1317,
+    "cityToId": 1193
+  },
+  {
+    "id": 588,
+    "cityFromId": 1348,
+    "cityToId": 1476
+  },
+  {
+    "id": 666,
+    "cityFromId": 1317,
+    "cityToId": 1475
+  },
+  {
+    "id": 668,
+    "cityFromId": 1317,
+    "cityToId": 1478
+  },
+  {
+    "id": 782,
+    "cityFromId": 1336,
+    "cityToId": 1476
+  },
+  {
+    "id": 783,
+    "cityFromId": 1336,
+    "cityToId": 1482
+  },
+  {
+    "id": 818,
+    "cityFromId": 1337,
+    "cityToId": 1476
+  },
+  {
+    "id": 819,
+    "cityFromId": 1337,
+    "cityToId": 1475
+  },
+  {
+    "id": 821,
+    "cityFromId": 1337,
+    "cityToId": 1478
+  },
+  {
+    "id": 833,
+    "cityFromId": 1318,
+    "cityToId": 1475
+  },
+  {
+    "id": 834,
+    "cityFromId": 1318,
+    "cityToId": 1476
+  },
+  {
+    "id": 836,
+    "cityFromId": 1318,
+    "cityToId": 1478
+  },
+  {
+    "id": 886,
+    "cityFromId": 1318,
+    "cityToId": 1193
+  },
+  {
+    "id": 949,
+    "cityFromId": 1329,
+    "cityToId": 1476
+  },
+  {
+    "id": 950,
+    "cityFromId": 1329,
+    "cityToId": 1475
+  },
+  {
+    "id": 970,
+    "cityFromId": 1319,
+    "cityToId": 1476
+  },
+  {
+    "id": 996,
+    "cityFromId": 1331,
+    "cityToId": 1476
+  },
+  {
+    "id": 997,
+    "cityFromId": 1331,
+    "cityToId": 1475
+  },
+  {
+    "id": 1010,
+    "cityFromId": 1355,
+    "cityToId": 1476
+  },
+  {
+    "id": 1011,
+    "cityFromId": 1328,
+    "cityToId": 1476
+  },
+  {
+    "id": 1024,
+    "cityFromId": 1325,
+    "cityToId": 1476
+  },
+  {
+    "id": 1025,
+    "cityFromId": 1325,
+    "cityToId": 1475
+  },
+  {
+    "id": 1050,
+    "cityFromId": 1322,
+    "cityToId": 1475
+  },
+  {
+    "id": 1051,
+    "cityFromId": 1322,
+    "cityToId": 1476
+  },
+  {
+    "id": 1069,
+    "cityFromId": 1347,
+    "cityToId": 1476
+  },
+  {
+    "id": 1070,
+    "cityFromId": 1346,
+    "cityToId": 1476
+  },
+  {
+    "id": 1074,
+    "cityFromId": 1338,
+    "cityToId": 1476
+  },
+  {
+    "id": 1089,
+    "cityFromId": 1359,
+    "cityToId": 1476
+  },
+  {
+    "id": 1095,
+    "cityFromId": 1353,
+    "cityToId": 1476
+  },
+  {
+    "id": 1098,
+    "cityFromId": 1360,
+    "cityToId": 1476
+  },
+  {
+    "id": 1099,
+    "cityFromId": 1324,
+    "cityToId": 1476
+  },
+  {
+    "id": 1100,
+    "cityFromId": 1324,
+    "cityToId": 1475
+  },
+  {
+    "id": 1122,
+    "cityFromId": 1327,
+    "cityToId": 1476
+  },
+  {
+    "id": 1123,
+    "cityFromId": 1327,
+    "cityToId": 1475
+  },
+  {
+    "id": 1135,
+    "cityFromId": 1342,
+    "cityToId": 1476
+  },
+  {
+    "id": 1148,
+    "cityFromId": 1330,
+    "cityToId": 1476
+  },
+  {
+    "id": 1154,
+    "cityFromId": 1320,
+    "cityToId": 1476
+  },
+  {
+    "id": 1155,
+    "cityFromId": 1320,
+    "cityToId": 1475
+  },
+  {
+    "id": 1199,
+    "cityFromId": 1320,
+    "cityToId": 1478
+  },
+  {
+    "id": 1203,
+    "cityFromId": 1334,
+    "cityToId": 1476
+  },
+  {
+    "id": 1204,
+    "cityFromId": 1334,
+    "cityToId": 1475
+  },
+  {
+    "id": 1217,
+    "cityFromId": 1323,
+    "cityToId": 1476
+  },
+  {
+    "id": 1218,
+    "cityFromId": 1323,
+    "cityToId": 1475
+  },
+  {
+    "id": 1232,
+    "cityFromId": 1317,
+    "cityToId": 1511
+  },
+  {
+    "id": 1233,
+    "cityFromId": 1318,
+    "cityToId": 1511
+  },
+  {
+    "id": 1234,
+    "cityFromId": 1320,
+    "cityToId": 1511
+  },
+  {
+    "id": 1235,
+    "cityFromId": 1321,
+    "cityToId": 1511
+  },
+  {
+    "id": 1236,
+    "cityFromId": 1322,
+    "cityToId": 1511
+  },
+  {
+    "id": 1237,
+    "cityFromId": 1323,
+    "cityToId": 1511
+  },
+  {
+    "id": 1238,
+    "cityFromId": 1324,
+    "cityToId": 1511
+  },
+  {
+    "id": 1239,
+    "cityFromId": 1325,
+    "cityToId": 1511
+  },
+  {
+    "id": 1240,
+    "cityFromId": 1326,
+    "cityToId": 1511
+  },
+  {
+    "id": 1241,
+    "cityFromId": 1329,
+    "cityToId": 1511
+  },
+  {
+    "id": 1242,
+    "cityFromId": 1332,
+    "cityToId": 1511
+  },
+  {
+    "id": 1243,
+    "cityFromId": 1333,
+    "cityToId": 1511
+  },
+  {
+    "id": 1244,
+    "cityFromId": 1334,
+    "cityToId": 1511
+  },
+  {
+    "id": 1245,
+    "cityFromId": 1335,
+    "cityToId": 1511
+  },
+  {
+    "id": 1246,
+    "cityFromId": 1336,
+    "cityToId": 1511
+  },
+  {
+    "id": 1247,
+    "cityFromId": 1338,
+    "cityToId": 1511
+  },
+  {
+    "id": 1248,
+    "cityFromId": 1341,
+    "cityToId": 1511
+  },
+  {
+    "id": 1249,
+    "cityFromId": 1342,
+    "cityToId": 1511
+  },
+  {
+    "id": 1251,
+    "cityFromId": 1347,
+    "cityToId": 1511
+  },
+  {
+    "id": 1252,
+    "cityFromId": 1348,
+    "cityToId": 1511
+  },
+  {
+    "id": 1253,
+    "cityFromId": 1350,
+    "cityToId": 1511
+  },
+  {
+    "id": 1254,
+    "cityFromId": 1353,
+    "cityToId": 1511
+  },
+  {
+    "id": 1255,
+    "cityFromId": 1354,
+    "cityToId": 1511
+  },
+  {
+    "id": 1256,
+    "cityFromId": 1361,
+    "cityToId": 1511
+  },
+  {
+    "id": 1257,
+    "cityFromId": 1367,
+    "cityToId": 1511
+  },
+  {
+    "id": 1258,
+    "cityFromId": 1372,
+    "cityToId": 1511
+  },
+  {
+    "id": 1259,
+    "cityFromId": 1377,
+    "cityToId": 1511
+  },
+  {
+    "id": 1260,
+    "cityFromId": 1380,
+    "cityToId": 1511
+  },
+  {
+    "id": 1261,
+    "cityFromId": 1395,
+    "cityToId": 1511
+  },
+  {
+    "id": 1262,
+    "cityFromId": 1399,
+    "cityToId": 1511
+  },
+  {
+    "id": 1263,
+    "cityFromId": 1402,
+    "cityToId": 1511
+  },
+  {
+    "id": 1264,
+    "cityFromId": 1757,
+    "cityToId": 1511
+  },
+  {
+    "id": 1265,
+    "cityFromId": 1317,
+    "cityToId": 1357
+  },
+  {
+    "id": 1266,
+    "cityFromId": 1318,
+    "cityToId": 1357
+  },
+  {
+    "id": 1267,
+    "cityFromId": 1320,
+    "cityToId": 1357
+  },
+  {
+    "id": 1268,
+    "cityFromId": 1321,
+    "cityToId": 1357
+  },
+  {
+    "id": 1269,
+    "cityFromId": 1322,
+    "cityToId": 1357
+  },
+  {
+    "id": 1270,
+    "cityFromId": 1323,
+    "cityToId": 1357
+  },
+  {
+    "id": 1271,
+    "cityFromId": 1324,
+    "cityToId": 1357
+  },
+  {
+    "id": 1272,
+    "cityFromId": 1325,
+    "cityToId": 1357
+  },
+  {
+    "id": 1273,
+    "cityFromId": 1326,
+    "cityToId": 1357
+  },
+  {
+    "id": 1274,
+    "cityFromId": 1327,
+    "cityToId": 1357
+  },
+  {
+    "id": 1275,
+    "cityFromId": 1331,
+    "cityToId": 1357
+  },
+  {
+    "id": 1276,
+    "cityFromId": 1332,
+    "cityToId": 1357
+  },
+  {
+    "id": 1277,
+    "cityFromId": 1333,
+    "cityToId": 1357
+  },
+  {
+    "id": 1278,
+    "cityFromId": 1334,
+    "cityToId": 1357
+  },
+  {
+    "id": 1279,
+    "cityFromId": 1335,
+    "cityToId": 1357
+  },
+  {
+    "id": 1280,
+    "cityFromId": 1336,
+    "cityToId": 1357
+  },
+  {
+    "id": 1281,
+    "cityFromId": 1338,
+    "cityToId": 1357
+  },
+  {
+    "id": 1282,
+    "cityFromId": 1339,
+    "cityToId": 1357
+  },
+  {
+    "id": 1283,
+    "cityFromId": 1341,
+    "cityToId": 1357
+  },
+  {
+    "id": 1284,
+    "cityFromId": 1342,
+    "cityToId": 1357
+  },
+  {
+    "id": 1286,
+    "cityFromId": 1346,
+    "cityToId": 1357
+  },
+  {
+    "id": 1287,
+    "cityFromId": 1348,
+    "cityToId": 1357
+  },
+  {
+    "id": 1288,
+    "cityFromId": 1349,
+    "cityToId": 1357
+  },
+  {
+    "id": 1289,
+    "cityFromId": 1350,
+    "cityToId": 1357
+  },
+  {
+    "id": 1290,
+    "cityFromId": 1353,
+    "cityToId": 1357
+  },
+  {
+    "id": 1291,
+    "cityFromId": 1354,
+    "cityToId": 1357
+  },
+  {
+    "id": 1292,
+    "cityFromId": 1358,
+    "cityToId": 1357
+  },
+  {
+    "id": 1293,
+    "cityFromId": 1368,
+    "cityToId": 1357
+  },
+  {
+    "id": 1294,
+    "cityFromId": 1367,
+    "cityToId": 1357
+  },
+  {
+    "id": 1295,
+    "cityFromId": 1372,
+    "cityToId": 1357
+  },
+  {
+    "id": 1296,
+    "cityFromId": 1395,
+    "cityToId": 1357
+  },
+  {
+    "id": 1297,
+    "cityFromId": 1398,
+    "cityToId": 1357
+  },
+  {
+    "id": 1298,
+    "cityFromId": 1399,
+    "cityToId": 1357
+  },
+  {
+    "id": 1299,
+    "cityFromId": 1402,
+    "cityToId": 1357
+  },
+  {
+    "id": 1300,
+    "cityFromId": 1404,
+    "cityToId": 1357
+  },
+  {
+    "id": 1353,
+    "cityFromId": 1354,
+    "cityToId": 1476
+  },
+  {
+    "id": 1439,
+    "cityFromId": 1331,
+    "cityToId": 1511
+  },
+  {
+    "id": 1446,
+    "cityFromId": 1346,
+    "cityToId": 1511
+  },
+  {
+    "id": 1452,
+    "cityFromId": 1815,
+    "cityToId": 961
+  },
+  {
+    "id": 1470,
+    "cityFromId": 1499,
+    "cityToId": 961
+  },
+  {
+    "id": 1472,
+    "cityFromId": 1631,
+    "cityToId": 961
+  },
+  {
+    "id": 1473,
+    "cityFromId": 984,
+    "cityToId": 961
+  },
+  {
+    "id": 1474,
+    "cityFromId": 1497,
+    "cityToId": 961
+  },
+  {
+    "id": 1481,
+    "cityFromId": 1498,
+    "cityToId": 961
+  },
+  {
+    "id": 1484,
+    "cityFromId": 1505,
+    "cityToId": 961
+  },
+  {
+    "id": 1494,
+    "cityFromId": 1201,
+    "cityToId": 961
+  },
+  {
+    "id": 1497,
+    "cityFromId": 1631,
+    "cityToId": 953
+  },
+  {
+    "id": 1498,
+    "cityFromId": 984,
+    "cityToId": 953
+  },
+  {
+    "id": 1504,
+    "cityFromId": 1201,
+    "cityToId": 956
+  },
+  {
+    "id": 1505,
+    "cityFromId": 1201,
+    "cityToId": 953
+  },
+  {
+    "id": 1506,
+    "cityFromId": 1201,
+    "cityToId": 878
+  },
+  {
+    "id": 1507,
+    "cityFromId": 1201,
+    "cityToId": 879
+  },
+  {
+    "id": 1509,
+    "cityFromId": 1201,
+    "cityToId": 1048
+  },
+  {
+    "id": 1510,
+    "cityFromId": 1201,
+    "cityToId": 1053
+  },
+  {
+    "id": 1511,
+    "cityFromId": 1201,
+    "cityToId": 1746
+  },
+  {
+    "id": 1512,
+    "cityFromId": 1201,
+    "cityToId": 1077
+  },
+  {
+    "id": 1517,
+    "cityFromId": 1204,
+    "cityToId": 879
+  },
+  {
+    "id": 1518,
+    "cityFromId": 1204,
+    "cityToId": 878
+  },
+  {
+    "id": 1519,
+    "cityFromId": 1204,
+    "cityToId": 953
+  },
+  {
+    "id": 1522,
+    "cityFromId": 1204,
+    "cityToId": 956
+  },
+  {
+    "id": 1524,
+    "cityFromId": 1204,
+    "cityToId": 961
+  },
+  {
+    "id": 1525,
+    "cityFromId": 1204,
+    "cityToId": 1048
+  },
+  {
+    "id": 1526,
+    "cityFromId": 1204,
+    "cityToId": 1047
+  },
+  {
+    "id": 1527,
+    "cityFromId": 1204,
+    "cityToId": 1053
+  },
+  {
+    "id": 1528,
+    "cityFromId": 1204,
+    "cityToId": 1746
+  },
+  {
+    "id": 1530,
+    "cityFromId": 1247,
+    "cityToId": 953
+  },
+  {
+    "id": 1533,
+    "cityFromId": 1408,
+    "cityToId": 956
+  },
+  {
+    "id": 1547,
+    "cityFromId": 1329,
+    "cityToId": 1357
+  },
+  {
+    "id": 1548,
+    "cityFromId": 1328,
+    "cityToId": 1357
+  },
+  {
+    "id": 1555,
+    "cityFromId": 1361,
+    "cityToId": 1476
+  },
+  {
+    "id": 1556,
+    "cityFromId": 1498,
+    "cityToId": 1476
+  },
+  {
+    "id": 1557,
+    "cityFromId": 1498,
+    "cityToId": 1475
+  },
+  {
+    "id": 1558,
+    "cityFromId": 1498,
+    "cityToId": 879
+  },
+  {
+    "id": 1559,
+    "cityFromId": 1498,
+    "cityToId": 1002
+  },
+  {
+    "id": 1560,
+    "cityFromId": 1498,
+    "cityToId": 1003
+  },
+  {
+    "id": 1561,
+    "cityFromId": 1498,
+    "cityToId": 1048
+  },
+  {
+    "id": 1562,
+    "cityFromId": 1498,
+    "cityToId": 1272
+  },
+  {
+    "id": 1563,
+    "cityFromId": 1505,
+    "cityToId": 1002
+  },
+  {
+    "id": 1564,
+    "cityFromId": 1505,
+    "cityToId": 1003
+  },
+  {
+    "id": 1565,
+    "cityFromId": 1499,
+    "cityToId": 1476
+  },
+  {
+    "id": 1566,
+    "cityFromId": 1362,
+    "cityToId": 1476
+  },
+  {
+    "id": 1567,
+    "cityFromId": 1363,
+    "cityToId": 1476
+  },
+  {
+    "id": 1568,
+    "cityFromId": 1364,
+    "cityToId": 1476
+  },
+  {
+    "id": 1569,
+    "cityFromId": 1814,
+    "cityToId": 1476
+  },
+  {
+    "id": 1570,
+    "cityFromId": 1204,
+    "cityToId": 1476
+  },
+  {
+    "id": 1571,
+    "cityFromId": 1204,
+    "cityToId": 1475
+  },
+  {
+    "id": 1572,
+    "cityFromId": 1204,
+    "cityToId": 1002
+  },
+  {
+    "id": 1573,
+    "cityFromId": 871,
+    "cityToId": 1476
+  },
+  {
+    "id": 1575,
+    "cityFromId": 1770,
+    "cityToId": 1511
+  },
+  {
+    "id": 1579,
+    "cityFromId": 1201,
+    "cityToId": 1476
+  },
+  {
+    "id": 1580,
+    "cityFromId": 1201,
+    "cityToId": 1002
+  },
+  {
+    "id": 1581,
+    "cityFromId": 1201,
+    "cityToId": 1003
+  },
+  {
+    "id": 1582,
+    "cityFromId": 1631,
+    "cityToId": 964
+  },
+  {
+    "id": 1583,
+    "cityFromId": 1631,
+    "cityToId": 1692
+  },
+  {
+    "id": 1584,
+    "cityFromId": 1631,
+    "cityToId": 956
+  },
+  {
+    "id": 1585,
+    "cityFromId": 1631,
+    "cityToId": 1160
+  },
+  {
+    "id": 1586,
+    "cityFromId": 1631,
+    "cityToId": 1476
+  },
+  {
+    "id": 1588,
+    "cityFromId": 1631,
+    "cityToId": 1002
+  },
+  {
+    "id": 1589,
+    "cityFromId": 1631,
+    "cityToId": 1003
+  },
+  {
+    "id": 1590,
+    "cityFromId": 1631,
+    "cityToId": 1272
+  },
+  {
+    "id": 1591,
+    "cityFromId": 1631,
+    "cityToId": 835
+  },
+  {
+    "id": 1593,
+    "cityFromId": 1631,
+    "cityToId": 1061
+  },
+  {
+    "id": 1598,
+    "cityFromId": 1317,
+    "cityToId": 1194
+  },
+  {
+    "id": 1622,
+    "cityFromId": 1349,
+    "cityToId": 1476
+  },
+  {
+    "id": 1623,
+    "cityFromId": 1770,
+    "cityToId": 1357
+  },
+  {
+    "id": 1625,
+    "cityFromId": 1205,
+    "cityToId": 1476
+  },
+  {
+    "id": 1626,
+    "cityFromId": 1205,
+    "cityToId": 1048
+  },
+  {
+    "id": 1627,
+    "cityFromId": 1205,
+    "cityToId": 1478
+  },
+  {
+    "id": 1628,
+    "cityFromId": 1205,
+    "cityToId": 879
+  },
+  {
+    "id": 1629,
+    "cityFromId": 1205,
+    "cityToId": 953
+  },
+  {
+    "id": 1630,
+    "cityFromId": 1205,
+    "cityToId": 1002
+  },
+  {
+    "id": 1631,
+    "cityFromId": 1205,
+    "cityToId": 1053
+  },
+  {
+    "id": 1632,
+    "cityFromId": 1205,
+    "cityToId": 1475
+  },
+  {
+    "id": 1633,
+    "cityFromId": 1205,
+    "cityToId": 956
+  },
+  {
+    "id": 1634,
+    "cityFromId": 1205,
+    "cityToId": 878
+  },
+  {
+    "id": 1636,
+    "cityFromId": 1204,
+    "cityToId": 1003
+  },
+  {
+    "id": 1638,
+    "cityFromId": 1204,
+    "cityToId": 1160
+  },
+  {
+    "id": 1639,
+    "cityFromId": 1204,
+    "cityToId": 1272
+  },
+  {
+    "id": 1640,
+    "cityFromId": 1204,
+    "cityToId": 1080
+  },
+  {
+    "id": 1641,
+    "cityFromId": 1204,
+    "cityToId": 1478
+  },
+  {
+    "id": 1642,
+    "cityFromId": 1631,
+    "cityToId": 878
+  },
+  {
+    "id": 1643,
+    "cityFromId": 1631,
+    "cityToId": 879
+  },
+  {
+    "id": 1644,
+    "cityFromId": 1339,
+    "cityToId": 1476
+  },
+  {
+    "id": 1654,
+    "cityFromId": 1343,
+    "cityToId": 1476
+  },
+  {
+    "id": 1656,
+    "cityFromId": 1326,
+    "cityToId": 1476
+  },
+  {
+    "id": 1713,
+    "cityFromId": 1363,
+    "cityToId": 1442
+  },
+  {
+    "id": 1723,
+    "cityFromId": 1361,
+    "cityToId": 1442
+  },
+  {
+    "id": 1724,
+    "cityFromId": 1361,
+    "cityToId": 1003
+  },
+  {
+    "id": 1729,
+    "cityFromId": 1631,
+    "cityToId": 970
+  },
+  {
+    "id": 1731,
+    "cityFromId": 1499,
+    "cityToId": 1003
+  },
+  {
+    "id": 1732,
+    "cityFromId": 1497,
+    "cityToId": 1003
+  },
+  {
+    "id": 1736,
+    "cityFromId": 1846,
+    "cityToId": 1476
+  },
+  {
+    "id": 1738,
+    "cityFromId": 1391,
+    "cityToId": 1476
+  },
+  {
+    "id": 1739,
+    "cityFromId": 1350,
+    "cityToId": 1476
+  },
+  {
+    "id": 1740,
+    "cityFromId": 1356,
+    "cityToId": 1476
+  },
+  {
+    "id": 1741,
+    "cityFromId": 1382,
+    "cityToId": 1476
+  },
+  {
+    "id": 1742,
+    "cityFromId": 1631,
+    "cityToId": 1746
+  },
+  {
+    "id": 1744,
+    "cityFromId": 1317,
+    "cityToId": 1842
+  },
+  {
+    "id": 1747,
+    "cityFromId": 1317,
+    "cityToId": 1482
+  },
+  {
+    "id": 1748,
+    "cityFromId": 1318,
+    "cityToId": 1482
+  },
+  {
+    "id": 1751,
+    "cityFromId": 1351,
+    "cityToId": 1476
+  },
+  {
+    "id": 1752,
+    "cityFromId": 1147,
+    "cityToId": 1476
+  },
+  {
+    "id": 1768,
+    "cityFromId": 1317,
+    "cityToId": 1016
+  },
+  {
+    "id": 1779,
+    "cityFromId": 1317,
+    "cityToId": 1845
+  },
+  {
+    "id": 1781,
+    "cityFromId": 1361,
+    "cityToId": 1002
+  },
+  {
+    "id": 1782,
+    "cityFromId": 1363,
+    "cityToId": 1003
+  },
+  {
+    "id": 1783,
+    "cityFromId": 1363,
+    "cityToId": 1002
+  },
+  {
+    "id": 1784,
+    "cityFromId": 1362,
+    "cityToId": 1002
+  },
+  {
+    "id": 1785,
+    "cityFromId": 1362,
+    "cityToId": 1003
+  },
+  {
+    "id": 1790,
+    "cityFromId": 1317,
+    "cityToId": 1481
+  },
+  {
+    "id": 1801,
+    "cityFromId": 1323,
+    "cityToId": 1478
+  },
+  {
+    "id": 1802,
+    "cityFromId": 1319,
+    "cityToId": 1478
+  },
+  {
+    "id": 1803,
+    "cityFromId": 1343,
+    "cityToId": 1475
+  },
+  {
+    "id": 1804,
+    "cityFromId": 1330,
+    "cityToId": 1475
+  },
+  {
+    "id": 1805,
+    "cityFromId": 1319,
+    "cityToId": 1475
+  },
+  {
+    "id": 1830,
+    "cityFromId": 1318,
+    "cityToId": 1842
+  },
+  {
+    "id": 1832,
+    "cityFromId": 1505,
+    "cityToId": 1476
+  },
+  {
+    "id": 1840,
+    "cityFromId": 1317,
+    "cityToId": 1477
+  },
+  {
+    "id": 1841,
+    "cityFromId": 1345,
+    "cityToId": 1476
+  },
+  {
+    "id": 1842,
+    "cityFromId": 1345,
+    "cityToId": 1002
+  },
+  {
+    "id": 1843,
+    "cityFromId": 1345,
+    "cityToId": 1003
+  },
+  {
+    "id": 1844,
+    "cityFromId": 1345,
+    "cityToId": 1048
+  },
+  {
+    "id": 1845,
+    "cityFromId": 1345,
+    "cityToId": 953
+  },
+  {
+    "id": 1846,
+    "cityFromId": 1359,
+    "cityToId": 1160
+  },
+  {
+    "id": 1847,
+    "cityFromId": 1345,
+    "cityToId": 1272
+  },
+  {
+    "id": 1867,
+    "cityFromId": 1773,
+    "cityToId": 1476
+  },
+  {
+    "id": 1869,
+    "cityFromId": 1317,
+    "cityToId": 1378
+  },
+  {
+    "id": 1870,
+    "cityFromId": 1318,
+    "cityToId": 1378
+  },
+  {
+    "id": 1871,
+    "cityFromId": 1320,
+    "cityToId": 1378
+  },
+  {
+    "id": 1872,
+    "cityFromId": 1323,
+    "cityToId": 1378
+  },
+  {
+    "id": 1873,
+    "cityFromId": 1321,
+    "cityToId": 1378
+  },
+  {
+    "id": 1874,
+    "cityFromId": 1317,
+    "cityToId": 1391
+  },
+  {
+    "id": 1875,
+    "cityFromId": 1343,
+    "cityToId": 1511
+  },
+  {
+    "id": 1876,
+    "cityFromId": 1339,
+    "cityToId": 1511
+  },
+  {
+    "id": 1877,
+    "cityFromId": 1350,
+    "cityToId": 1378
+  },
+  {
+    "id": 1878,
+    "cityFromId": 1343,
+    "cityToId": 1357
+  },
+  {
+    "id": 1879,
+    "cityFromId": 1846,
+    "cityToId": 1511
+  },
+  {
+    "id": 1880,
+    "cityFromId": 1342,
+    "cityToId": 1378
+  },
+  {
+    "id": 1881,
+    "cityFromId": 1839,
+    "cityToId": 1511
+  },
+  {
+    "id": 1882,
+    "cityFromId": 1324,
+    "cityToId": 1378
+  },
+  {
+    "id": 1883,
+    "cityFromId": 1338,
+    "cityToId": 1378
+  },
+  {
+    "id": 1884,
+    "cityFromId": 1373,
+    "cityToId": 1378
+  },
+  {
+    "id": 1885,
+    "cityFromId": 1373,
+    "cityToId": 1511
+  },
+  {
+    "id": 1886,
+    "cityFromId": 1328,
+    "cityToId": 1378
+  },
+  {
+    "id": 1887,
+    "cityFromId": 1328,
+    "cityToId": 1511
+  },
+  {
+    "id": 1888,
+    "cityFromId": 1354,
+    "cityToId": 1378
+  },
+  {
+    "id": 1889,
+    "cityFromId": 1355,
+    "cityToId": 1511
+  },
+  {
+    "id": 1890,
+    "cityFromId": 1329,
+    "cityToId": 1378
+  },
+  {
+    "id": 1891,
+    "cityFromId": 1356,
+    "cityToId": 1511
+  },
+  {
+    "id": 1892,
+    "cityFromId": 1344,
+    "cityToId": 1511
+  },
+  {
+    "id": 1893,
+    "cityFromId": 1344,
+    "cityToId": 1357
+  },
+  {
+    "id": 1894,
+    "cityFromId": 1371,
+    "cityToId": 1378
+  },
+  {
+    "id": 1895,
+    "cityFromId": 1371,
+    "cityToId": 1511
+  },
+  {
+    "id": 1896,
+    "cityFromId": 1371,
+    "cityToId": 1357
+  },
+  {
+    "id": 1897,
+    "cityFromId": 1332,
+    "cityToId": 1378
+  },
+  {
+    "id": 1898,
+    "cityFromId": 1340,
+    "cityToId": 1511
+  },
+  {
+    "id": 1899,
+    "cityFromId": 1340,
+    "cityToId": 1357
+  },
+  {
+    "id": 1900,
+    "cityFromId": 1352,
+    "cityToId": 1511
+  },
+  {
+    "id": 1901,
+    "cityFromId": 1497,
+    "cityToId": 1476
+  },
+  {
+    "id": 1902,
+    "cityFromId": 1498,
+    "cityToId": 1478
+  },
+  {
+    "id": 1903,
+    "cityFromId": 1505,
+    "cityToId": 1478
+  },
+  {
+    "id": 1904,
+    "cityFromId": 1505,
+    "cityToId": 1475
+  },
+  {
+    "id": 1905,
+    "cityFromId": 1317,
+    "cityToId": 1374
+  },
+  {
+    "id": 1906,
+    "cityFromId": 1497,
+    "cityToId": 1478
+  },
+  {
+    "id": 1907,
+    "cityFromId": 1497,
+    "cityToId": 1475
+  },
+  {
+    "id": 1909,
+    "cityFromId": 1817,
+    "cityToId": 1476
+  },
+  {
+    "id": 1910,
+    "cityFromId": 1377,
+    "cityToId": 1357
+  },
+  {
+    "id": 1911,
+    "cityFromId": 1345,
+    "cityToId": 1481
+  },
+  {
+    "id": 1912,
+    "cityFromId": 1345,
+    "cityToId": 1478
+  },
+  {
+    "id": 1913,
+    "cityFromId": 1817,
+    "cityToId": 1478
+  },
+  {
+    "id": 1914,
+    "cityFromId": 1817,
+    "cityToId": 1475
+  },
+  {
+    "id": 1915,
+    "cityFromId": 1318,
+    "cityToId": 1477
+  },
+  {
+    "id": 1916,
+    "cityFromId": 1317,
+    "cityToId": 1318
+  },
+  {
+    "id": 1917,
+    "cityFromId": 1320,
+    "cityToId": 1330
+  },
+  {
+    "id": 1918,
+    "cityFromId": 1317,
+    "cityToId": 1331
+  },
+  {
+    "id": 1919,
+    "cityFromId": 1317,
+    "cityToId": 1373
+  },
+  {
+    "id": 1920,
+    "cityFromId": 1318,
+    "cityToId": 1373
+  },
+  {
+    "id": 1921,
+    "cityFromId": 1321,
+    "cityToId": 1317
+  },
+  {
+    "id": 1922,
+    "cityFromId": 1317,
+    "cityToId": 1329
+  },
+  {
+    "id": 1923,
+    "cityFromId": 1317,
+    "cityToId": 1323
+  },
+  {
+    "id": 1924,
+    "cityFromId": 1317,
+    "cityToId": 1324
+  },
+  {
+    "id": 1925,
+    "cityFromId": 1317,
+    "cityToId": 1353
+  },
+  {
+    "id": 1926,
+    "cityFromId": 1322,
+    "cityToId": 1330
+  },
+  {
+    "id": 1927,
+    "cityFromId": 1317,
+    "cityToId": 1325
+  },
+  {
+    "id": 1928,
+    "cityFromId": 1317,
+    "cityToId": 1328
+  },
+  {
+    "id": 1929,
+    "cityFromId": 1319,
+    "cityToId": 1357
+  },
+  {
+    "id": 1930,
+    "cityFromId": 1325,
+    "cityToId": 1477
+  },
+  {
+    "id": 1931,
+    "cityFromId": 1320,
+    "cityToId": 1477
+  },
+  {
+    "id": 1932,
+    "cityFromId": 1319,
+    "cityToId": 1477
+  },
+  {
+    "id": 1933,
+    "cityFromId": 1501,
+    "cityToId": 1476
+  },
+  {
+    "id": 1934,
+    "cityFromId": 1501,
+    "cityToId": 1478
+  },
+  {
+    "id": 1935,
+    "cityFromId": 1501,
+    "cityToId": 1475
+  },
+  {
+    "id": 1936,
+    "cityFromId": 1320,
+    "cityToId": 1016
+  },
+  {
+    "id": 1937,
+    "cityFromId": 1319,
+    "cityToId": 1016
+  },
+  {
+    "id": 1938,
+    "cityFromId": 1325,
+    "cityToId": 1016
+  },
+  {
+    "id": 1939,
+    "cityFromId": 1329,
+    "cityToId": 1016
+  },
+  {
+    "id": 1940,
+    "cityFromId": 1318,
+    "cityToId": 1016
+  },
+  {
+    "id": 1941,
+    "cityFromId": 1498,
+    "cityToId": 999
+  },
+  {
+    "id": 1942,
+    "cityFromId": 1201,
+    "cityToId": 1160
+  },
+  {
+    "id": 1943,
+    "cityFromId": 1201,
+    "cityToId": 1050
+  },
+  {
+    "id": 1944,
+    "cityFromId": 1817,
+    "cityToId": 1003
+  },
+  {
+    "id": 1945,
+    "cityFromId": 1317,
+    "cityToId": 1485
+  },
+  {
+    "id": 1946,
+    "cityFromId": 1317,
+    "cityToId": 1886
+  },
+  {
+    "id": 1947,
+    "cityFromId": 1374,
+    "cityToId": 1442
+  },
+  {
+    "id": 1948,
+    "cityFromId": 1317,
+    "cityToId": 1863
+  },
+  {
+    "id": 1949,
+    "cityFromId": 1318,
+    "cityToId": 1485
+  },
+  {
+    "id": 1950,
+    "cityFromId": 1330,
+    "cityToId": 1477
+  },
+  {
+    "id": 1951,
+    "cityFromId": 1324,
+    "cityToId": 1016
+  },
+  {
+    "id": 1952,
+    "cityFromId": 1321,
+    "cityToId": 1016
+  },
+  {
+    "id": 1953,
+    "cityFromId": 1501,
+    "cityToId": 1003
+  },
+  {
+    "id": 1954,
+    "cityFromId": 1317,
+    "cityToId": 1218
+  },
+  {
+    "id": 1955,
+    "cityFromId": 1498,
+    "cityToId": 1218
+  },
+  {
+    "id": 1956,
+    "cityFromId": 1317,
+    "cityToId": 1330
+  },
+  {
+    "id": 1957,
+    "cityFromId": 1498,
+    "cityToId": 1845
+  },
+  {
+    "id": 1958,
+    "cityFromId": 1498,
+    "cityToId": 1485
+  },
+  {
+    "id": 1959,
+    "cityFromId": 1317,
+    "cityToId": 1492
+  },
+  {
+    "id": 1960,
+    "cityFromId": 1497,
+    "cityToId": 1845
+  },
+  {
+    "id": 1961,
+    "cityFromId": 1817,
+    "cityToId": 1845
+  },
+  {
+    "id": 1962,
+    "cityFromId": 1499,
+    "cityToId": 1845
+  },
+  {
+    "id": 1963,
+    "cityFromId": 1317,
+    "cityToId": 1887
+  },
+  {
+    "id": 1964,
+    "cityFromId": 1317,
+    "cityToId": 1341
+  },
+  {
+    "id": 1965,
+    "cityFromId": 1498,
+    "cityToId": 997
+  },
+  {
+    "id": 1966,
+    "cityFromId": 1498,
+    "cityToId": 1361
+  },
+  {
+    "id": 1967,
+    "cityFromId": 1323,
+    "cityToId": 1016
+  },
+  {
+    "id": 1968,
+    "cityFromId": 1323,
+    "cityToId": 1374
+  },
+  {
+    "id": 1969,
+    "cityFromId": 1317,
+    "cityToId": 1667
+  },
+  {
+    "id": 1970,
+    "cityFromId": 1348,
+    "cityToId": 1378
+  },
+  {
+    "id": 1971,
+    "cityFromId": 1351,
+    "cityToId": 1378
+  },
+  {
+    "id": 1972,
+    "cityFromId": 1498,
+    "cityToId": 1482
+  },
+  {
+    "id": 1973,
+    "cityFromId": 1498,
+    "cityToId": 1459
+  },
+  {
+    "id": 1974,
+    "cityFromId": 1773,
+    "cityToId": 1477
+  },
+  {
+    "id": 1975,
+    "cityFromId": 1323,
+    "cityToId": 1477
+  },
+  {
+    "id": 1976,
+    "cityFromId": 1317,
+    "cityToId": 1272
+  },
+  {
+    "id": 1977,
+    "cityFromId": 1320,
+    "cityToId": 1272
+  },
+  {
+    "id": 1978,
+    "cityFromId": 1323,
+    "cityToId": 1272
+  },
+  {
+    "id": 1979,
+    "cityFromId": 1317,
+    "cityToId": 1005
+  },
+  {
+    "id": 1980,
+    "cityFromId": 1323,
+    "cityToId": 1005
+  },
+  {
+    "id": 1981,
+    "cityFromId": 1318,
+    "cityToId": 1005
+  },
+  {
+    "id": 1982,
+    "cityFromId": 1325,
+    "cityToId": 1005
+  },
+  {
+    "id": 1983,
+    "cityFromId": 1324,
+    "cityToId": 1005
+  },
+  {
+    "id": 1984,
+    "cityFromId": 1320,
+    "cityToId": 1005
+  },
+  {
+    "id": 1985,
+    "cityFromId": 1317,
+    "cityToId": 1564
+  },
+  {
+    "id": 1986,
+    "cityFromId": 1329,
+    "cityToId": 1274
+  },
+  {
+    "id": 1987,
+    "cityFromId": 1317,
+    "cityToId": 1274
+  },
+  {
+    "id": 1988,
+    "cityFromId": 1320,
+    "cityToId": 1274
+  },
+  {
+    "id": 1989,
+    "cityFromId": 1319,
+    "cityToId": 1274
+  },
+  {
+    "id": 1990,
+    "cityFromId": 1321,
+    "cityToId": 1274
+  },
+  {
+    "id": 1991,
+    "cityFromId": 1318,
+    "cityToId": 1274
+  },
+  {
+    "id": 1992,
+    "cityFromId": 1323,
+    "cityToId": 1274
+  },
+  {
+    "id": 1993,
+    "cityFromId": 1363,
+    "cityToId": 1272
+  },
+  {
+    "id": 1994,
+    "cityFromId": 1361,
+    "cityToId": 1272
+  },
+  {
+    "id": 1995,
+    "cityFromId": 1329,
+    "cityToId": 1272
+  },
+  {
+    "id": 1996,
+    "cityFromId": 1327,
+    "cityToId": 1005
+  },
+  {
+    "id": 1997,
+    "cityFromId": 1317,
+    "cityToId": 1160
+  },
+  {
+    "id": 1998,
+    "cityFromId": 1330,
+    "cityToId": 1005
+  },
+  {
+    "id": 1999,
+    "cityFromId": 1322,
+    "cityToId": 1005
+  },
+  {
+    "id": 2000,
+    "cityFromId": 1395,
+    "cityToId": 1005
+  },
+  {
+    "id": 2001,
+    "cityFromId": 1329,
+    "cityToId": 1005
+  },
+  {
+    "id": 2002,
+    "cityFromId": 1321,
+    "cityToId": 1005
+  },
+  {
+    "id": 2003,
+    "cityFromId": 1498,
+    "cityToId": 953
+  },
+  {
+    "id": 2004,
+    "cityFromId": 1498,
+    "cityToId": 956
+  },
+  {
+    "id": 2005,
+    "cityFromId": 1498,
+    "cityToId": 1575
+  },
+  {
+    "id": 2006,
+    "cityFromId": 1331,
+    "cityToId": 1005
+  },
+  {
+    "id": 2007,
+    "cityFromId": 1319,
+    "cityToId": 1005
+  },
+  {
+    "id": 2008,
+    "cityFromId": 1323,
+    "cityToId": 1330
+  },
+  {
+    "id": 2009,
+    "cityFromId": 1317,
+    "cityToId": 1242
+  },
+  {
+    "id": 2010,
+    "cityFromId": 1322,
+    "cityToId": 1160
+  },
+  {
+    "id": 2011,
+    "cityFromId": 1323,
+    "cityToId": 1160
+  },
+  {
+    "id": 2012,
+    "cityFromId": 1325,
+    "cityToId": 1160
+  },
+  {
+    "id": 2013,
+    "cityFromId": 1332,
+    "cityToId": 1160
+  },
+  {
+    "id": 2014,
+    "cityFromId": 1330,
+    "cityToId": 1160
+  },
+  {
+    "id": 2015,
+    "cityFromId": 1333,
+    "cityToId": 1005
+  },
+  {
+    "id": 2016,
+    "cityFromId": 1334,
+    "cityToId": 1005
+  },
+  {
+    "id": 2017,
+    "cityFromId": 1327,
+    "cityToId": 1160
+  },
+  {
+    "id": 2018,
+    "cityFromId": 1343,
+    "cityToId": 1160
+  },
+  {
+    "id": 2019,
+    "cityFromId": 1321,
+    "cityToId": 1160
+  },
+  {
+    "id": 2020,
+    "cityFromId": 1329,
+    "cityToId": 1160
+  },
+  {
+    "id": 2021,
+    "cityFromId": 1319,
+    "cityToId": 1160
+  },
+  {
+    "id": 2022,
+    "cityFromId": 1320,
+    "cityToId": 1160
+  },
+  {
+    "id": 2024,
+    "cityFromId": 1318,
+    "cityToId": 1160
+  },
+  {
+    "id": 2025,
+    "cityFromId": 1332,
+    "cityToId": 1005
+  },
+  {
+    "id": 2026,
+    "cityFromId": 1317,
+    "cityToId": 1680
+  },
+  {
+    "id": 2027,
+    "cityFromId": 1322,
+    "cityToId": 867
+  },
+  {
+    "id": 2028,
+    "cityFromId": 1320,
+    "cityToId": 867
+  },
+  {
+    "id": 2029,
+    "cityFromId": 1329,
+    "cityToId": 867
+  },
+  {
+    "id": 2030,
+    "cityFromId": 1317,
+    "cityToId": 867
+  },
+  {
+    "id": 2031,
+    "cityFromId": 1319,
+    "cityToId": 867
+  },
+  {
+    "id": 2032,
+    "cityFromId": 1359,
+    "cityToId": 867
+  },
+  {
+    "id": 2033,
+    "cityFromId": 1323,
+    "cityToId": 867
+  },
+  {
+    "id": 2034,
+    "cityFromId": 1331,
+    "cityToId": 867
+  },
+  {
+    "id": 2035,
+    "cityFromId": 1318,
+    "cityToId": 867
+  },
+  {
+    "id": 2036,
+    "cityFromId": 1321,
+    "cityToId": 867
+  },
+  {
+    "id": 2037,
+    "cityFromId": 1327,
+    "cityToId": 867
+  },
+  {
+    "id": 2038,
+    "cityFromId": 1357,
+    "cityToId": 867
+  },
+  {
+    "id": 2039,
+    "cityFromId": 1326,
+    "cityToId": 867
+  },
+  {
+    "id": 2040,
+    "cityFromId": 1339,
+    "cityToId": 867
+  },
+  {
+    "id": 2041,
+    "cityFromId": 1343,
+    "cityToId": 867
+  },
+  {
+    "id": 2042,
+    "cityFromId": 1317,
+    "cityToId": 1459
+  },
+  {
+    "id": 2043,
+    "cityFromId": 1317,
+    "cityToId": 1469
+  },
+  {
+    "id": 2044,
+    "cityFromId": 1339,
+    "cityToId": 1160
+  },
+  {
+    "id": 2045,
+    "cityFromId": 1324,
+    "cityToId": 1160
+  },
+  {
+    "id": 2046,
+    "cityFromId": 1345,
+    "cityToId": 1475
+  },
+  {
+    "id": 2047,
+    "cityFromId": 1317,
+    "cityToId": 1358
+  },
+  {
+    "id": 2048,
+    "cityFromId": 1326,
+    "cityToId": 1005
+  },
+  {
+    "id": 2049,
+    "cityFromId": 1339,
+    "cityToId": 1005
+  },
+  {
+    "id": 2050,
+    "cityFromId": 1342,
+    "cityToId": 1005
+  },
+  {
+    "id": 2051,
+    "cityFromId": 1343,
+    "cityToId": 1005
+  },
+  {
+    "id": 2052,
+    "cityFromId": 1354,
+    "cityToId": 1005
+  },
+  {
+    "id": 2053,
+    "cityFromId": 1344,
+    "cityToId": 1005
+  },
+  {
+    "id": 2054,
+    "cityFromId": 1337,
+    "cityToId": 1005
+  },
+  {
+    "id": 2055,
+    "cityFromId": 1347,
+    "cityToId": 1005
+  },
+  {
+    "id": 2056,
+    "cityFromId": 1350,
+    "cityToId": 1005
+  },
+  {
+    "id": 2057,
+    "cityFromId": 1317,
+    "cityToId": 953
+  },
+  {
+    "id": 2058,
+    "cityFromId": 1317,
+    "cityToId": 955
+  },
+  {
+    "id": 2059,
+    "cityFromId": 1317,
+    "cityToId": 1561
+  },
+  {
+    "id": 2060,
+    "cityFromId": 1317,
+    "cityToId": 1002
+  },
+  {
+    "id": 2061,
+    "cityFromId": 1317,
+    "cityToId": 1003
+  },
+  {
+    "id": 2062,
+    "cityFromId": 1317,
+    "cityToId": 1692
+  },
+  {
+    "id": 2063,
+    "cityFromId": 1317,
+    "cityToId": 1894
+  },
+  {
+    "id": 2064,
+    "cityFromId": 1317,
+    "cityToId": 961
+  },
+  {
+    "id": 2065,
+    "cityFromId": 1317,
+    "cityToId": 956
+  },
+  {
+    "id": 2066,
+    "cityFromId": 1321,
+    "cityToId": 953
+  },
+  {
+    "id": 2067,
+    "cityFromId": 1329,
+    "cityToId": 953
+  },
+  {
+    "id": 2068,
+    "cityFromId": 1317,
+    "cityToId": 999
+  },
+  {
+    "id": 2069,
+    "cityFromId": 1498,
+    "cityToId": 1746
+  },
+  {
+    "id": 2070,
+    "cityFromId": 1317,
+    "cityToId": 1862
+  },
+  {
+    "id": 2071,
+    "cityFromId": 1317,
+    "cityToId": 997
+  },
+  {
+    "id": 2072,
+    "cityFromId": 1317,
+    "cityToId": 1000
+  },
+  {
+    "id": 2073,
+    "cityFromId": 1317,
+    "cityToId": 906
+  },
+  {
+    "id": 2074,
+    "cityFromId": 1204,
+    "cityToId": 1482
+  },
+  {
+    "id": 2075,
+    "cityFromId": 1204,
+    "cityToId": 985
+  },
+  {
+    "id": 2076,
+    "cityFromId": 1372,
+    "cityToId": 1003
+  },
+  {
+    "id": 2077,
+    "cityFromId": 1371,
+    "cityToId": 1003
+  },
+  {
+    "id": 2078,
+    "cityFromId": 1337,
+    "cityToId": 1003
+  },
+  {
+    "id": 2079,
+    "cityFromId": 1350,
+    "cityToId": 1003
+  },
+  {
+    "id": 2080,
+    "cityFromId": 1337,
+    "cityToId": 1002
+  },
+  {
+    "id": 2081,
+    "cityFromId": 1350,
+    "cityToId": 1002
+  },
+  {
+    "id": 2082,
+    "cityFromId": 1342,
+    "cityToId": 1002
+  },
+  {
+    "id": 2083,
+    "cityFromId": 1336,
+    "cityToId": 1002
+  },
+  {
+    "id": 2084,
+    "cityFromId": 1334,
+    "cityToId": 1002
+  },
+  {
+    "id": 2085,
+    "cityFromId": 1330,
+    "cityToId": 1002
+  },
+  {
+    "id": 2086,
+    "cityFromId": 1371,
+    "cityToId": 1002
+  },
+  {
+    "id": 2087,
+    "cityFromId": 1373,
+    "cityToId": 1002
+  },
+  {
+    "id": 2088,
+    "cityFromId": 1328,
+    "cityToId": 1002
+  },
+  {
+    "id": 2089,
+    "cityFromId": 1324,
+    "cityToId": 1002
+  },
+  {
+    "id": 2090,
+    "cityFromId": 1324,
+    "cityToId": 1003
+  },
+  {
+    "id": 2091,
+    "cityFromId": 1336,
+    "cityToId": 1003
+  },
+  {
+    "id": 2092,
+    "cityFromId": 1356,
+    "cityToId": 1003
+  },
+  {
+    "id": 2093,
+    "cityFromId": 1330,
+    "cityToId": 1003
+  },
+  {
+    "id": 2094,
+    "cityFromId": 1846,
+    "cityToId": 1003
+  },
+  {
+    "id": 2095,
+    "cityFromId": 1342,
+    "cityToId": 1003
+  },
+  {
+    "id": 2096,
+    "cityFromId": 1328,
+    "cityToId": 1003
+  },
+  {
+    "id": 2097,
+    "cityFromId": 1366,
+    "cityToId": 1003
+  },
+  {
+    "id": 2098,
+    "cityFromId": 1355,
+    "cityToId": 1003
+  },
+  {
+    "id": 2099,
+    "cityFromId": 1353,
+    "cityToId": 1003
+  },
+  {
+    "id": 2100,
+    "cityFromId": 1340,
+    "cityToId": 1003
+  },
+  {
+    "id": 2101,
+    "cityFromId": 1373,
+    "cityToId": 1003
+  },
+  {
+    "id": 2102,
+    "cityFromId": 1318,
+    "cityToId": 1002
+  },
+  {
+    "id": 2103,
+    "cityFromId": 1333,
+    "cityToId": 1003
+  },
+  {
+    "id": 2104,
+    "cityFromId": 1333,
+    "cityToId": 1002
+  },
+  {
+    "id": 2105,
+    "cityFromId": 1352,
+    "cityToId": 1002
+  },
+  {
+    "id": 2106,
+    "cityFromId": 1352,
+    "cityToId": 1003
+  },
+  {
+    "id": 2107,
+    "cityFromId": 1335,
+    "cityToId": 1002
+  },
+  {
+    "id": 2108,
+    "cityFromId": 1335,
+    "cityToId": 1003
+  },
+  {
+    "id": 2109,
+    "cityFromId": 1321,
+    "cityToId": 1002
+  },
+  {
+    "id": 2110,
+    "cityFromId": 1321,
+    "cityToId": 1003
+  },
+  {
+    "id": 2111,
+    "cityFromId": 1340,
+    "cityToId": 1002
+  },
+  {
+    "id": 2112,
+    "cityFromId": 1332,
+    "cityToId": 1003
+  },
+  {
+    "id": 2113,
+    "cityFromId": 1332,
+    "cityToId": 1002
+  },
+  {
+    "id": 2114,
+    "cityFromId": 1344,
+    "cityToId": 1002
+  },
+  {
+    "id": 2115,
+    "cityFromId": 1344,
+    "cityToId": 1003
+  },
+  {
+    "id": 2116,
+    "cityFromId": 1348,
+    "cityToId": 1002
+  },
+  {
+    "id": 2117,
+    "cityFromId": 1348,
+    "cityToId": 1003
+  },
+  {
+    "id": 2118,
+    "cityFromId": 1318,
+    "cityToId": 1003
+  },
+  {
+    "id": 2119,
+    "cityFromId": 1329,
+    "cityToId": 1002
+  },
+  {
+    "id": 2120,
+    "cityFromId": 1329,
+    "cityToId": 1003
+  },
+  {
+    "id": 2121,
+    "cityFromId": 1319,
+    "cityToId": 1002
+  },
+  {
+    "id": 2122,
+    "cityFromId": 1319,
+    "cityToId": 1003
+  },
+  {
+    "id": 2123,
+    "cityFromId": 1331,
+    "cityToId": 1002
+  },
+  {
+    "id": 2124,
+    "cityFromId": 1331,
+    "cityToId": 1003
+  },
+  {
+    "id": 2125,
+    "cityFromId": 1355,
+    "cityToId": 1002
+  },
+  {
+    "id": 2126,
+    "cityFromId": 1325,
+    "cityToId": 1002
+  },
+  {
+    "id": 2127,
+    "cityFromId": 1325,
+    "cityToId": 1003
+  },
+  {
+    "id": 2128,
+    "cityFromId": 1322,
+    "cityToId": 1002
+  },
+  {
+    "id": 2129,
+    "cityFromId": 1322,
+    "cityToId": 1003
+  },
+  {
+    "id": 2130,
+    "cityFromId": 1347,
+    "cityToId": 1002
+  },
+  {
+    "id": 2131,
+    "cityFromId": 1346,
+    "cityToId": 1002
+  },
+  {
+    "id": 2132,
+    "cityFromId": 1346,
+    "cityToId": 1003
+  },
+  {
+    "id": 2133,
+    "cityFromId": 1338,
+    "cityToId": 1002
+  },
+  {
+    "id": 2134,
+    "cityFromId": 1338,
+    "cityToId": 1003
+  },
+  {
+    "id": 2135,
+    "cityFromId": 1359,
+    "cityToId": 1003
+  },
+  {
+    "id": 2136,
+    "cityFromId": 1359,
+    "cityToId": 1002
+  },
+  {
+    "id": 2137,
+    "cityFromId": 1353,
+    "cityToId": 1002
+  },
+  {
+    "id": 2138,
+    "cityFromId": 1360,
+    "cityToId": 1002
+  },
+  {
+    "id": 2139,
+    "cityFromId": 1360,
+    "cityToId": 1003
+  },
+  {
+    "id": 2140,
+    "cityFromId": 1327,
+    "cityToId": 1002
+  },
+  {
+    "id": 2141,
+    "cityFromId": 1327,
+    "cityToId": 1003
+  },
+  {
+    "id": 2142,
+    "cityFromId": 1320,
+    "cityToId": 1002
+  },
+  {
+    "id": 2143,
+    "cityFromId": 1320,
+    "cityToId": 1003
+  },
+  {
+    "id": 2144,
+    "cityFromId": 1334,
+    "cityToId": 1003
+  },
+  {
+    "id": 2145,
+    "cityFromId": 1323,
+    "cityToId": 1002
+  },
+  {
+    "id": 2146,
+    "cityFromId": 1323,
+    "cityToId": 1003
+  },
+  {
+    "id": 2147,
+    "cityFromId": 1354,
+    "cityToId": 1002
+  },
+  {
+    "id": 2148,
+    "cityFromId": 1354,
+    "cityToId": 1003
+  },
+  {
+    "id": 2149,
+    "cityFromId": 1349,
+    "cityToId": 1002
+  },
+  {
+    "id": 2150,
+    "cityFromId": 1349,
+    "cityToId": 1003
+  },
+  {
+    "id": 2151,
+    "cityFromId": 1339,
+    "cityToId": 1002
+  },
+  {
+    "id": 2152,
+    "cityFromId": 1339,
+    "cityToId": 1003
+  },
+  {
+    "id": 2153,
+    "cityFromId": 1343,
+    "cityToId": 1002
+  },
+  {
+    "id": 2154,
+    "cityFromId": 1343,
+    "cityToId": 1003
+  },
+  {
+    "id": 2155,
+    "cityFromId": 1326,
+    "cityToId": 1002
+  },
+  {
+    "id": 2156,
+    "cityFromId": 1326,
+    "cityToId": 1003
+  },
+  {
+    "id": 2157,
+    "cityFromId": 1846,
+    "cityToId": 1002
+  },
+  {
+    "id": 2158,
+    "cityFromId": 1356,
+    "cityToId": 1002
+  },
+  {
+    "id": 2159,
+    "cityFromId": 1341,
+    "cityToId": 1002
+  },
+  {
+    "id": 2160,
+    "cityFromId": 1341,
+    "cityToId": 1003
+  },
+  {
+    "id": 2161,
+    "cityFromId": 1351,
+    "cityToId": 1002
+  },
+  {
+    "id": 2162,
+    "cityFromId": 1351,
+    "cityToId": 1003
+  },
+  {
+    "id": 2163,
+    "cityFromId": 1147,
+    "cityToId": 1002
+  },
+  {
+    "id": 2164,
+    "cityFromId": 1147,
+    "cityToId": 1003
+  },
+  {
+    "id": 2165,
+    "cityFromId": 1501,
+    "cityToId": 1002
+  },
+  {
+    "id": 2166,
+    "cityFromId": 1817,
+    "cityToId": 1002
+  },
+  {
+    "id": 2167,
+    "cityFromId": 1497,
+    "cityToId": 1002
+  },
+  {
+    "id": 2168,
+    "cityFromId": 1773,
+    "cityToId": 1003
+  },
+  {
+    "id": 2169,
+    "cityFromId": 1773,
+    "cityToId": 1002
+  },
+  {
+    "id": 2170,
+    "cityFromId": 1205,
+    "cityToId": 1003
+  },
+  {
+    "id": 2171,
+    "cityFromId": 871,
+    "cityToId": 1002
+  },
+  {
+    "id": 2172,
+    "cityFromId": 871,
+    "cityToId": 1003
+  },
+  {
+    "id": 2173,
+    "cityFromId": 1499,
+    "cityToId": 1002
+  },
+  {
+    "id": 2174,
+    "cityFromId": 1375,
+    "cityToId": 1002
+  },
+  {
+    "id": 2175,
+    "cityFromId": 1375,
+    "cityToId": 1003
+  },
+  {
+    "id": 2176,
+    "cityFromId": 1365,
+    "cityToId": 1002
+  },
+  {
+    "id": 2177,
+    "cityFromId": 1364,
+    "cityToId": 1003
+  },
+  {
+    "id": 2178,
+    "cityFromId": 1364,
+    "cityToId": 1002
+  },
+  {
+    "id": 2179,
+    "cityFromId": 1814,
+    "cityToId": 1002
+  },
+  {
+    "id": 2180,
+    "cityFromId": 1814,
+    "cityToId": 1003
+  },
+  {
+    "id": 2181,
+    "cityFromId": 1391,
+    "cityToId": 1002
+  },
+  {
+    "id": 2182,
+    "cityFromId": 1391,
+    "cityToId": 1003
+  },
+  {
+    "id": 2183,
+    "cityFromId": 1323,
+    "cityToId": 999
+  },
+  {
+    "id": 2184,
+    "cityFromId": 1320,
+    "cityToId": 999
+  },
+  {
+    "id": 2185,
+    "cityFromId": 1325,
+    "cityToId": 999
+  },
+  {
+    "id": 2186,
+    "cityFromId": 1319,
+    "cityToId": 999
+  },
+  {
+    "id": 2187,
+    "cityFromId": 1318,
+    "cityToId": 999
+  },
+  {
+    "id": 2188,
+    "cityFromId": 1321,
+    "cityToId": 999
+  },
+  {
+    "id": 2190,
+    "cityFromId": 1317,
+    "cityToId": 1320
+  },
+  {
+    "id": 2191,
+    "cityFromId": 1317,
+    "cityToId": 1332
+  },
+  {
+    "id": 2192,
+    "cityFromId": 1330,
+    "cityToId": 1326
+  },
+  {
+    "id": 2193,
+    "cityFromId": 1318,
+    "cityToId": 1350
+  },
+  {
+    "id": 2194,
+    "cityFromId": 1318,
+    "cityToId": 1343
+  },
+  {
+    "id": 2195,
+    "cityFromId": 1318,
+    "cityToId": 1341
+  },
+  {
+    "id": 2196,
+    "cityFromId": 1320,
+    "cityToId": 1359
+  },
+  {
+    "id": 2197,
+    "cityFromId": 1330,
+    "cityToId": 1331
+  },
+  {
+    "id": 2198,
+    "cityFromId": 1330,
+    "cityToId": 1329
+  },
+  {
+    "id": 2199,
+    "cityFromId": 1330,
+    "cityToId": 1332
+  },
+  {
+    "id": 2200,
+    "cityFromId": 1330,
+    "cityToId": 1321
+  },
+  {
+    "id": 2201,
+    "cityFromId": 1330,
+    "cityToId": 1333
+  },
+  {
+    "id": 2202,
+    "cityFromId": 1327,
+    "cityToId": 962
+  },
+  {
+    "id": 2203,
+    "cityFromId": 1359,
+    "cityToId": 961
+  },
+  {
+    "id": 2204,
+    "cityFromId": 1319,
+    "cityToId": 961
+  },
+  {
+    "id": 2205,
+    "cityFromId": 1317,
+    "cityToId": 1893
+  },
+  {
+    "id": 2206,
+    "cityFromId": 1318,
+    "cityToId": 1893
+  },
+  {
+    "id": 2207,
+    "cityFromId": 1318,
+    "cityToId": 1461
+  },
+  {
+    "id": 2208,
+    "cityFromId": 1388,
+    "cityToId": 1477
+  },
+  {
+    "id": 2209,
+    "cityFromId": 1322,
+    "cityToId": 1477
+  },
+  {
+    "id": 2210,
+    "cityFromId": 1331,
+    "cityToId": 1477
+  },
+  {
+    "id": 2211,
+    "cityFromId": 1318,
+    "cityToId": 1667
+  },
+  {
+    "id": 2212,
+    "cityFromId": 1319,
+    "cityToId": 1272
+  },
+  {
+    "id": 2213,
+    "cityFromId": 1773,
+    "cityToId": 1272
+  },
+  {
+    "id": 2214,
+    "cityFromId": 1373,
+    "cityToId": 1272
+  },
+  {
+    "id": 2215,
+    "cityFromId": 1318,
+    "cityToId": 1272
+  },
+  {
+    "id": 2216,
+    "cityFromId": 1348,
+    "cityToId": 1272
+  },
+  {
+    "id": 2217,
+    "cityFromId": 1371,
+    "cityToId": 1272
+  },
+  {
+    "id": 2218,
+    "cityFromId": 1335,
+    "cityToId": 1272
+  },
+  {
+    "id": 2219,
+    "cityFromId": 1339,
+    "cityToId": 1477
+  },
+  {
+    "id": 2220,
+    "cityFromId": 1359,
+    "cityToId": 1477
+  },
+  {
+    "id": 2221,
+    "cityFromId": 1321,
+    "cityToId": 1477
+  },
+  {
+    "id": 2222,
+    "cityFromId": 1323,
+    "cityToId": 997
+  },
+  {
+    "id": 2223,
+    "cityFromId": 1320,
+    "cityToId": 997
+  },
+  {
+    "id": 2224,
+    "cityFromId": 1324,
+    "cityToId": 997
+  },
+  {
+    "id": 2225,
+    "cityFromId": 1325,
+    "cityToId": 997
+  },
+  {
+    "id": 2226,
+    "cityFromId": 1318,
+    "cityToId": 997
+  },
+  {
+    "id": 2227,
+    "cityFromId": 1321,
+    "cityToId": 997
+  },
+  {
+    "id": 2228,
+    "cityFromId": 1498,
+    "cityToId": 1193
+  },
+  {
+    "id": 2229,
+    "cityFromId": 1317,
+    "cityToId": 1399
+  },
+  {
+    "id": 2230,
+    "cityFromId": 1317,
+    "cityToId": 881
+  },
+  {
+    "id": 2231,
+    "cityFromId": 1317,
+    "cityToId": 1334
+  },
+  {
+    "id": 2232,
+    "cityFromId": 1324,
+    "cityToId": 1272
+  },
+  {
+    "id": 2233,
+    "cityFromId": 1341,
+    "cityToId": 1272
+  },
+  {
+    "id": 2234,
+    "cityFromId": 1341,
+    "cityToId": 1476
+  },
+  {
+    "id": 2235,
+    "cityFromId": 1395,
+    "cityToId": 1476
+  },
+  {
+    "id": 2236,
+    "cityFromId": 1327,
+    "cityToId": 1272
+  },
+  {
+    "id": 2237,
+    "cityFromId": 1373,
+    "cityToId": 1476
+  },
+  {
+    "id": 2238,
+    "cityFromId": 1331,
+    "cityToId": 1272
+  },
+  {
+    "id": 2239,
+    "cityFromId": 1320,
+    "cityToId": 1048
+  },
+  {
+    "id": 2240,
+    "cityFromId": 1327,
+    "cityToId": 1048
+  },
+  {
+    "id": 2241,
+    "cityFromId": 1359,
+    "cityToId": 1475
+  },
+  {
+    "id": 2242,
+    "cityFromId": 1317,
+    "cityToId": 1192
+  },
+  {
+    "id": 2243,
+    "cityFromId": 1317,
+    "cityToId": 879
+  },
+  {
+    "id": 2244,
+    "cityFromId": 1317,
+    "cityToId": 1279
+  },
+  {
+    "id": 2245,
+    "cityFromId": 1317,
+    "cityToId": 1338
+  },
+  {
+    "id": 2246,
+    "cityFromId": 1319,
+    "cityToId": 1048
+  },
+  {
+    "id": 2247,
+    "cityFromId": 1329,
+    "cityToId": 1048
+  },
+  {
+    "id": 2248,
+    "cityFromId": 1318,
+    "cityToId": 1048
+  },
+  {
+    "id": 2249,
+    "cityFromId": 1318,
+    "cityToId": 1469
+  },
+  {
+    "id": 2250,
+    "cityFromId": 1318,
+    "cityToId": 1459
+  },
+  {
+    "id": 2251,
+    "cityFromId": 1317,
+    "cityToId": 1303
+  },
+  {
+    "id": 2252,
+    "cityFromId": 1361,
+    "cityToId": 1478
+  },
+  {
+    "id": 2253,
+    "cityFromId": 1325,
+    "cityToId": 1218
+  },
+  {
+    "id": 2254,
+    "cityFromId": 1498,
+    "cityToId": 1016
+  },
+  {
+    "id": 2255,
+    "cityFromId": 1498,
+    "cityToId": 1242
+  },
+  {
+    "id": 2256,
+    "cityFromId": 1326,
+    "cityToId": 1160
+  },
+  {
+    "id": 2257,
+    "cityFromId": 1327,
+    "cityToId": 1273
+  },
+  {
+    "id": 2258,
+    "cityFromId": 1317,
+    "cityToId": 1273
+  },
+  {
+    "id": 2259,
+    "cityFromId": 1321,
+    "cityToId": 1272
+  },
+  {
+    "id": 2260,
+    "cityFromId": 1325,
+    "cityToId": 1272
+  },
+  {
+    "id": 2261,
+    "cityFromId": 1317,
+    "cityToId": 1624
+  },
+  {
+    "id": 2262,
+    "cityFromId": 1318,
+    "cityToId": 1773
+  },
+  {
+    "id": 2263,
+    "cityFromId": 1328,
+    "cityToId": 1318
+  },
+  {
+    "id": 2264,
+    "cityFromId": 1318,
+    "cityToId": 1371
+  },
+  {
+    "id": 2265,
+    "cityFromId": 1349,
+    "cityToId": 1511
+  },
+  {
+    "id": 2266,
+    "cityFromId": 1835,
+    "cityToId": 1511
+  },
+  {
+    "id": 2267,
+    "cityFromId": 1903,
+    "cityToId": 1511
+  },
+  {
+    "id": 2268,
+    "cityFromId": 1903,
+    "cityToId": 1357
+  },
+  {
+    "id": 2269,
+    "cityFromId": 1317,
+    "cityToId": 1395
+  },
+  {
+    "id": 2270,
+    "cityFromId": 1317,
+    "cityToId": 1773
+  },
+  {
+    "id": 2271,
+    "cityFromId": 1318,
+    "cityToId": 1320
+  },
+  {
+    "id": 2272,
+    "cityFromId": 1317,
+    "cityToId": 1372
+  },
+  {
+    "id": 2273,
+    "cityFromId": 1317,
+    "cityToId": 1905
+  }
+]

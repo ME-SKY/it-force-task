@@ -1,0 +1,919 @@
+[
+  {
+    "id": 160,
+    "name": "Абхазия",
+    "systemName": "Абхазия",
+    "defaultCurrencyId": 1,
+    "isDeleted": true
+  },
+  {
+    "id": 161,
+    "name": "Австралия",
+    "systemName": "Австралия",
+    "defaultCurrencyId": 3,
+    "isDeleted": true
+  },
+  {
+    "id": 162,
+    "name": "Австрия",
+    "systemName": "Австрия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 163,
+    "name": "Азербайджан",
+    "systemName": "Азербайджан",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 167,
+    "name": "Андорра",
+    "systemName": "Андорра",
+    "defaultCurrencyId": 2,
+    "isDeleted": true
+  },
+  {
+    "id": 169,
+    "name": "Аргентина",
+    "systemName": "Аргентина",
+    "defaultCurrencyId": 3,
+    "isDeleted": true
+  },
+  {
+    "id": 170,
+    "name": "Армения",
+    "systemName": "Армения",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 171,
+    "name": "Аруба",
+    "systemName": "Аруба",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 173,
+    "name": "Багамы",
+    "systemName": "Багамы",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 177,
+    "name": "Беларусь",
+    "systemName": "Беларусь",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 179,
+    "name": "Бельгия",
+    "systemName": "Бельгия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 180,
+    "name": "Бермуды",
+    "systemName": "Бермуды",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 181,
+    "name": "Болгария",
+    "systemName": "Болгария",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 184,
+    "name": "Бразилия",
+    "systemName": "Бразилия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 188,
+    "name": "Великобритания",
+    "systemName": "Великобритания",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 189,
+    "name": "Венгрия",
+    "systemName": "Венгрия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 190,
+    "name": "Венесуэла",
+    "systemName": "Венесуэла",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 191,
+    "name": "Вьетнам",
+    "systemName": "Вьетнам",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 195,
+    "name": "Германия",
+    "systemName": "Германия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 197,
+    "name": "Гонконг",
+    "systemName": "Гонконг",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 199,
+    "name": "Греция",
+    "systemName": "Греция",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 200,
+    "name": "Грузия",
+    "systemName": "Грузия",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 201,
+    "name": "Дания",
+    "systemName": "Дания",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 202,
+    "name": "Доминикана",
+    "systemName": "Доминикана",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 203,
+    "name": "Египет",
+    "systemName": "Египет",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 204,
+    "name": "Занзибар",
+    "systemName": "Занзибар",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 205,
+    "name": "Израиль",
+    "systemName": "Израиль",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 206,
+    "name": "Индия",
+    "systemName": "Индия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 207,
+    "name": "Индонезия",
+    "systemName": "Индонезия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 208,
+    "name": "Иордания",
+    "systemName": "Иордания",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 210,
+    "name": "Ирландия",
+    "systemName": "Ирландия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 211,
+    "name": "Исландия",
+    "systemName": "Исландия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 212,
+    "name": "Испания",
+    "systemName": "Испания",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 213,
+    "name": "Италия",
+    "systemName": "Италия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 216,
+    "name": "Казахстан",
+    "systemName": "Казахстан",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 218,
+    "name": "Камбоджа",
+    "systemName": "Камбоджа",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 219,
+    "name": "Канада",
+    "systemName": "Канада",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 220,
+    "name": "Катар",
+    "systemName": "Катар",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 221,
+    "name": "Кения",
+    "systemName": "Кения",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 222,
+    "name": "Кипр",
+    "systemName": "Кипр",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 223,
+    "name": "Китай",
+    "systemName": "Китай",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 224,
+    "name": "Колумбия",
+    "systemName": "Колумбия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 226,
+    "name": "Корея",
+    "systemName": "Корея",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 227,
+    "name": "Коста-Рика",
+    "systemName": "Коста-Рика",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 228,
+    "name": "Куба",
+    "systemName": "Куба",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 229,
+    "name": "Кыргызстан",
+    "systemName": "Кыргызстан",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 231,
+    "name": "Латвия",
+    "systemName": "Латвия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 234,
+    "name": "Литва",
+    "systemName": "Литва",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 237,
+    "name": "Маврикий",
+    "systemName": "Маврикий",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 240,
+    "name": "Малайзия",
+    "systemName": "Малайзия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 241,
+    "name": "Мальдивы",
+    "systemName": "Мальдивы",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 242,
+    "name": "Мальта",
+    "systemName": "Мальта",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 243,
+    "name": "Марокко",
+    "systemName": "Марокко",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 245,
+    "name": "Мексика",
+    "systemName": "Мексика",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 246,
+    "name": "Молдавия",
+    "systemName": "Молдавия",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 249,
+    "name": "Морокко",
+    "systemName": "Морокко",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 253,
+    "name": "Нидерланды",
+    "systemName": "Нидерланды",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 254,
+    "name": "Никарагуа",
+    "systemName": "Никарагуа",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 255,
+    "name": "Новая Зеландия",
+    "systemName": "Новая Зеландия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 256,
+    "name": "Норвегия",
+    "systemName": "Норвегия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 257,
+    "name": "ОАЭ",
+    "systemName": "ОАЭ",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 259,
+    "name": "Пакистан",
+    "systemName": "Пакистан",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 260,
+    "name": "Панама",
+    "systemName": "Панама",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 261,
+    "name": "Парагвай",
+    "systemName": "Парагвай",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 262,
+    "name": "Перу",
+    "systemName": "Перу",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 263,
+    "name": "Польша",
+    "systemName": "Польша",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 264,
+    "name": "Португалия",
+    "systemName": "Португалия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 265,
+    "name": "Пуэрто-Рико",
+    "systemName": "Пуэрто-Рико",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 267,
+    "name": "Россия",
+    "systemName": "Россия",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 269,
+    "name": "Румыния",
+    "systemName": "Румыния",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 270,
+    "name": "Сейшелы",
+    "systemName": "Сейшелы",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 273,
+    "name": "Сингапур",
+    "systemName": "Сингапур",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 277,
+    "name": "Словакия",
+    "systemName": "Словакия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 278,
+    "name": "Словения",
+    "systemName": "Словения",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 279,
+    "name": "США",
+    "systemName": "США",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 280,
+    "name": "Таджикистан",
+    "systemName": "Таджикистан",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 283,
+    "name": "Тайвань",
+    "systemName": "Тайвань",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 284,
+    "name": "Тайланд",
+    "systemName": "Тайланд",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 285,
+    "name": "Танзания",
+    "systemName": "Танзания",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 288,
+    "name": "Тунис",
+    "systemName": "Тунис",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 290,
+    "name": "Турция",
+    "systemName": "Турция",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 292,
+    "name": "Узбекистан",
+    "systemName": "Узбекистан",
+    "defaultCurrencyId": 1,
+    "isDeleted": false
+  },
+  {
+    "id": 293,
+    "name": "Украина",
+    "systemName": "Украина",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 295,
+    "name": "Филиппины",
+    "systemName": "Филиппины",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 296,
+    "name": "Финляндия",
+    "systemName": "Финляндия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 297,
+    "name": "Франция",
+    "systemName": "Франция",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 298,
+    "name": "Хорватия",
+    "systemName": "Хорватия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 299,
+    "name": "Черногория",
+    "systemName": "Черногория",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 300,
+    "name": "Чехия",
+    "systemName": "Чехия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 302,
+    "name": "Швейцария",
+    "systemName": "Швейцария",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 303,
+    "name": "Швеция",
+    "systemName": "Швеция",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 304,
+    "name": "Шри-Ланка",
+    "systemName": "Шри-Ланка",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 307,
+    "name": "Эстония",
+    "systemName": "Эстония",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 309,
+    "name": "ЮАР",
+    "systemName": "ЮАР",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 311,
+    "name": "Ямайка",
+    "systemName": "Ямайка",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 312,
+    "name": "Япония",
+    "systemName": "Япония",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 317,
+    "name": "Французская Полинезия",
+    "systemName": "Французская Полинезия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 318,
+    "name": "Мьянма",
+    "systemName": "Мьянма",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 319,
+    "name": "Сербия",
+    "systemName": "Сербия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 320,
+    "name": "Камерун",
+    "systemName": "Камерун",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 321,
+    "name": "Албания",
+    "systemName": "Албания",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 322,
+    "name": "Непал",
+    "systemName": "Непал",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 323,
+    "name": "Папуа-Новая Гвинея",
+    "systemName": "Папуа-Новая Гвинея",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 324,
+    "name": "Белиз",
+    "systemName": "Белиз",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 325,
+    "name": "Боливия",
+    "systemName": "Боливия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 326,
+    "name": "Чили",
+    "systemName": "Чили",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 327,
+    "name": "Иран",
+    "systemName": "Иран",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 328,
+    "name": "Люксембург",
+    "systemName": "Люксембург",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 330,
+    "name": "Афганистан",
+    "systemName": "Афганистан",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 331,
+    "name": "Сирия",
+    "systemName": "Сирия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 332,
+    "name": "Конго",
+    "systemName": "Конго",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 333,
+    "name": "Кюрасао",
+    "systemName": "Кюрасао",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 334,
+    "name": "Мозамбик",
+    "systemName": "Мозамбик",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 335,
+    "name": "Монако",
+    "systemName": "Монако",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 336,
+    "name": "Ливан",
+    "systemName": "Ливан",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 337,
+    "name": "Македония",
+    "systemName": "Македония",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 339,
+    "name": "Молдова",
+    "systemName": "Молдова",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 341,
+    "name": "Монголия",
+    "systemName": "Монголия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 343,
+    "name": "Нигерия",
+    "systemName": "Нигерия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 344,
+    "name": "Босния и Герцеговина",
+    "systemName": "Босния и Герцеговина",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 345,
+    "name": "Туркменистан",
+    "systemName": "Туркменистан",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 346,
+    "name": "Республика Чад",
+    "systemName": "Республика Чад",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 347,
+    "name": "Гаити",
+    "systemName": "Гаити",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 348,
+    "name": "Киргизия",
+    "systemName": "Киргизия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 349,
+    "name": "Оман",
+    "systemName": "Оман",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 350,
+    "name": "Бахрейн",
+    "systemName": "Бахрейн",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 351,
+    "name": "Гамбия",
+    "systemName": "Гамбия",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 352,
+    "name": "Бурунди",
+    "systemName": "Бурунди",
+    "defaultCurrencyId": 2,
+    "isDeleted": false
+  },
+  {
+    "id": 353,
+    "name": "Северная Корея",
+    "systemName": "Северная Корея",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 354,
+    "name": "Судан",
+    "systemName": "Судан",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  },
+  {
+    "id": 355,
+    "name": "Саудовская Аравия",
+    "systemName": "Саудовская Аравия",
+    "defaultCurrencyId": 3,
+    "isDeleted": false
+  }
+]

@@ -1,11 +1,58 @@
 .order-form{
-    width: 654px;
-    height: 392px;
-    left: 313px;
-    top: 186px;
 
     background: #D9D9D9;
     border-radius: 16px;
-
+    gap: 20px;
     padding: 20px;
+    display: flex;
+    flex-flow: column nowrap; //todo maybe use mixin  - flex-column-nowrap,display flex
+
 }
+
+.departure, .arrival{
+    display: flex;
+    // gap: 20px;
+    flex-flow: column nowrap;
+    flex: 1;
+}
+
+.travel-details{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.passengers{
+    border: 0.5px black solid;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+
+.passenger{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    border: 0.5px black solid;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.add-passenger{
+    width: fit-content;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+    .create-order{
+
+    }
+}
+
+
+
+
+

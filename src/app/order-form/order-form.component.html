@@ -1,104 +1,123 @@
-<div class="order-form">
-    <form [formGroup]="orderForm">
-        <mat-form-field>
-            <!-- <input type="text" matInput formControlName="departureCountry"/> -->
-           <mat-label>Страна</mat-label>
-            <input type="text"
-                placeholder="Страна"
-                aria-label="departureCountry"
-                matInput
-                formControlName="departureCountry"
-                [matAutocomplete]="autoDepartureCountry"
-                >
-            <mat-autocomplete #autoDepartureCountry="matAutocomplete" [displayWith]="displayCountryName">
-                <!-- <mat-option *ngFor="let option of testData" [value]="option">
-                    {{option}}
-                </mat-option> -->
-                <mat-option *ngFor="let option of countries" [value]="option">
-                    {{option.name}}
-                </mat-option>
-            </mat-autocomplete>
-            <!-- <input matInput placeholder="Логин" formControlName="userName"> -->
-            <!-- <mat-error *ngIf="authForm.controls.userName.hasError('required')">
-              Обязательное поле.
-            </mat-error> -->
-            <!-- <mat-error *ngIf="authForm.controls.userName.hasError('minlength')">
-              от {{authForm.controls.userName.errors.minlength.requiredLength}} символов пожалуйста
-            </mat-error> -->
-          </mat-form-field>
+<!-- <div class="order-form"> -->
+<form [formGroup]="orderForm" class="order-form">
+    <div class="travel-details">
+        <div class="departure">
+            <h4>Вылет</h4>
 
-          <mat-form-field>
-            <mat-label>Город</mat-label>
-            <input type="text"
-                placeholder="Город"
-                aria-label="departureCity"
-                matInput
-                formControlName="departureCity"
-                [matAutocomplete]="autoDepartureCity"
-                >
-            <mat-autocomplete #autoDepartureCity="matAutocomplete" [displayWith]="displayCityName">
-                <!-- <mat-option *ngFor="let option of testData" [value]="option">
-                    {{option}}
-                </mat-option> -->
-                <mat-option *ngFor="let option of filteredCities$ | async" [value]="option">
-                    {{option.name}}
-                </mat-option>
-            </mat-autocomplete>
-          </mat-form-field>
+            <mat-form-field>
+                <mat-label>Страна</mat-label>
+                <input type="text" placeholder="Страна" aria-label="departureCountry" matInput
+                    formControlName="departureCountry" [matAutocomplete]="autoDepartureCountry" name="departure-country">
+                <mat-autocomplete #autoDepartureCountry="matAutocomplete" [displayWith]="displayCountryName">
+                    <mat-option *ngFor="let option of filteredDepartureCountries$ | async" [value]="option">
+                        {{option.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
 
-          <mat-form-field>
-            <mat-label>Аэропорт</mat-label>
-            <input type="text"
-                placeholder="Аэропорт"
-                aria-label="departureAirport"
-                matInput
-                formControlName="departureAirport"
-                [matAutocomplete]="autoDepartureAirport"
-                >
-            <mat-autocomplete #autoDepartureAirport="matAutocomplete" [displayWith]="displayAirportName">
-                <!-- <mat-option *ngFor="let option of testData" [value]="option">
-                    {{option}}
-                </mat-option> -->
-                <mat-option *ngFor="let option of filteredAirports$ | async" [value]="option">
-                    {{option.name}}
-                </mat-option>
-            </mat-autocomplete>
-          </mat-form-field>
-        <!-- <div class="auth-dialog" [formGroup]="authForm"> -->
+            <mat-form-field>
+                <mat-label>Город</mat-label>
+                <input type="text" placeholder="Город" aria-label="departureCity" matInput
+                    formControlName="departureCity" [matAutocomplete]="autoDepartureCity" name="departure-city">
+                <mat-autocomplete #autoDepartureCity="matAutocomplete" [displayWith]="displayCityName">
+                    <mat-option *ngFor="let option of filteredDepartureCities$ | async" [value]="option">
+                        {{option.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Аэропорт</mat-label>
+                <input type="text" placeholder="Аэропорт" aria-label="departureAirport" matInput
+                    formControlName="departureAirport" [matAutocomplete]="autoDepartureAirport" name="departure-airport">
+                <mat-autocomplete #autoDepartureAirport="matAutocomplete" [displayWith]="displayAirportName">
+                    <mat-option *ngFor="let option of filteredDepartureAirports$ | async" [value]="option">
+                        {{option.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </div>
+
+        <div class="arrival">
+            <h4>Прибытие/Посадка</h4>
+
+            <mat-form-field>
+                <mat-label>Страна</mat-label>
+                <input type="text" placeholder="Страна" aria-label="arrivalCountry" matInput
+                    formControlName="arrivalCountry" [matAutocomplete]="autoArrivalCountry">
+                <mat-autocomplete #autoArrivalCountry="matAutocomplete" [displayWith]="displayCountryName" name="arrival-country">
+                    <mat-option *ngFor="let option of filteredArrivalCountries$ | async" [value]="option">
+                        {{option.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Город</mat-label>
+                <input type="text" placeholder="Город" aria-label="arrivalCity" matInput formControlName="arrivalCity"
+                    [matAutocomplete]="autoArrivalCity" name="arrival-city">
+                <mat-autocomplete #autoArrivalCity="matAutocomplete" [displayWith]="displayCityName">
+                    <mat-option *ngFor="let option of filteredArrivalCities$ | async" [value]="option">
+                        {{option.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Аэропорт</mat-label>
+                <input type="text" placeholder="Аэропорт" aria-label="arrivalAirport" matInput
+                    formControlName="arrivalAirport" [matAutocomplete]="autoArrivalAirport" name="arrival-airport">
+                <mat-autocomplete #autoArrivalAirport="matAutocomplete" [displayWith]="displayAirportName">
+                    <mat-option *ngFor="let option of filteredArrivalAirports$ | async" [value]="option">
+                        {{option.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+
+        </div>
+    </div>
 
 
+    <div class="passengers" >
+        <ng-container formArrayName="passengers">
+            <div *ngFor="let _ of passengers.controls; index as i" class="passenger">
+                <h4>Пассажир</h4>
+                
+                <ng-container [formGroupName]="i">
+                    <mat-form-field>
+                        <mat-label>Имя</mat-label>
+                        <input matInput type="text" formControlName="name">
+                    </mat-form-field>
 
-            <!-- /<h1 mat-dialog-title>Вход</h1> -->
-          
-            <!-- <div class="auth-inputs" mat-dialog-content> -->
-              <!-- <mat-form-field [color]="'warn'"> -->
-                <!-- <input matInput placeholder="Логин" formControlName="userName">
-                <mat-error *ngIf="authForm.controls.userName.hasError('required')">
-                  Обязательное поле.
-                </mat-error>
-                <mat-error *ngIf="authForm.controls.userName.hasError('minlength')">
-                  от {{authForm.controls.userName.errors.minlength.requiredLength}} символов пожалуйста
-                </mat-error>
-              </mat-form-field>
-          
-              <mat-form-field [color]="'warn'">
-                <input type="password" matInput placeholder="Пароль" formControlName="password">
-                <mat-error *ngIf="authForm.controls.password.hasError('required')">
-                  Обязательное поле.
-                </mat-error>
-                <mat-error *ngIf="authForm.controls.password.hasError('minlength')">
-                  от {{authForm.controls.password.errors.minlength.requiredLength}} символов пожалуйста
-                </mat-error>
-              </mat-form-field>
-              <mat-checkbox>Запомнить</mat-checkbox> -->
-            <!-- </div> -->
-          
-            <!-- <div class="login-button"> -->
-              <!-- <button mat-button (click)="signIn()">
-                Войти
-              </button> -->
-            <!-- </div> -->
-          
-          <!-- </div> -->
-    </form>
-</div>
+                    <mat-form-field>
+                        <mat-label>Возраст</mat-label>
+                        <input matInput type="number" formControlName="age">
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <mat-label>Паспорт действителен до</mat-label>
+                        <input matInput type="number" formControlName="age">
+                    </mat-form-field> 
+                </ng-container>
+                <button [disabled]="passengers.controls.length < 2" mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
+                    <mat-icon>delete</mat-icon>
+                  </button>
+              </div>
+        </ng-container>
+        <!-- <div *ngFor="let _ of passengers['controls']; index as i" class="passenger">
+            
+            <div class="passen" formGroupName="passenger">
+                <input type="text" formControlName="name" [name]="i" placeholder="pa">
+                <input type="text" formControlName="age" [name]="i">
+            </div>
+            
+        </div> -->
+        <button mat-raised-button color="primary"  (click)="addPassenger()" class="add-passenger">Добавить пассажира</button>
+        
+    </div>
+
+    <div class="actions">
+        <button mat-raised-button color="primary"  type="submit"  class="create-order">Создать заказ</button>
+    </div>
+</form>
+<!-- </div> -->

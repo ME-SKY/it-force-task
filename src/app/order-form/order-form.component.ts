@@ -1,75 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { BehaviorSubject, forkJoin } from 'rxjs';
+import { BehaviorSubject, filter, forkJoin } from 'rxjs';
 import { ICountry, ICity, IAirport, IAllowedDirection } from '../core/models';
 import { DataService } from '../core/services/data.service';
-
-// {
-//   "id": 161,
-//   "name": "Австралия",
-//   "systemName": "Австралия",
-//   "defaultCurrencyId": 3,
-//   "isDeleted": true
-// },
-
-// {
-//   "id": 1899,
-//   "name": "Лос-Рокес",
-//   "iata": "LRV",
-//   "systemName": "LOS ROQUES",
-//   "countryId": 190,
-//   "isDeleted": false
-// },
-
-// interface ICity{
-//   id: number,
-//   name: string,
-//   iata: string, //todo change this to some of "LRV" etc
-//   systemName: string,
-//   countryId: number
-//   isDeleted: boolean
-// }
-
-// interface ICountry{
-//   id: number,
-//   name: string,
-//   systemName: string,
-//   defaultCurrencyId: number,
-//   isDeleted: boolean
-// }
-
-// {
-//   "id": 313,
-//   "parentId": 0,
-//   "name": "Гуарульос",
-//   "iata": "GRU",
-//   "isVirtual": false,
-//   "icao": "SBGR",
-//   "altitude": 2459,
-//   "latitude": -23.425669,
-//   "longitude": -46.481926,
-//   "timezone": -3,
-//   "systemName": "Aeroporto Internacional Guarulhos",
-//   "cityId": 899,
-//   "isDeleted": true
-// }
-
-// interface IAirport{
-//   id: number,
-//   parentId: number,
-//   name: string,
-//   iata: string,
-//   isVirtual: boolean,
-//   icao: string,
-//   altitude: number,
-//   latitude: number,
-//   longitude: number,
-//   timezone: number,
-//   systemName: string,
-//   cityId: number,
-//   isDeleted: true
-// }
 
 @Component({
   selector: 'order-form',
@@ -78,65 +12,66 @@ import { DataService } from '../core/services/data.service';
 })
 export class OrderFormComponent implements OnInit {
 
-  constructor(private fb: FormBuilder, 
+  constructor(private fb: FormBuilder,
     private http: HttpClient,
-    private dataService: DataService) {  //where it should be in contructor or in inOnInit
-    // this.orderForm.get('departureCountry').valueChanges.subscribe((v) => {
-    //   console.log(v)
-    // })
+    private dataService: DataService) { 
   }
 
-  countries: ICountry [] = [];
-  cities: ICity [] = [];
-  citiesWithAirports: ICity [] = [];
-  airports: IAirport [] = [];
-  // testData: Number [] = [1,2,3];
-  
-  filteredCities$: BehaviorSubject<ICity[]> = new BehaviorSubject(this.cities);
-  filteredAirports$: BehaviorSubject<IAirport[]> = new BehaviorSubject(this.airports);
-  
+  countries: ICountry[] = [];
+  cities: ICity[] = [];
+  allowedDirections: IAllowedDirection[] = [];
+  airports: IAirport[] = [];
+
+
+  filteredDepartureCities$: BehaviorSubject<ICity[]> = new BehaviorSubject(this.cities);
+  filteredDepartureCountries$: BehaviorSubject<ICountry[]> = new BehaviorSubject(this.countries);
+  filteredDepartureAirports$: BehaviorSubject<IAirport[]> = new BehaviorSubject(this.airports);
+
+
+  filteredArrivalCities$: BehaviorSubject<ICity[]> = new BehaviorSubject(this.cities);
+  filteredArrivalCountries$: BehaviorSubject<ICountry[]> = new BehaviorSubject(this.countries);
+  filteredArrivalAirports$: BehaviorSubject<IAirport[]> = new BehaviorSubject(this.airports);
+
+
   orderForm = this.fb.group({
-    departureCountry: [''],
-    departureCity: [''],
-    departureAirport: [''],
-    // arrivalCountry: [''],
-    // arrivalCity: [''],
-    // arrivalAirport: [''],
-    // passangers: this.fb.array([this.createPassenger()])
-    
-    // userName: ['', [Validators.required, Validators.minLength(2)]],
-    // password: ['', [Validators.required, Validators.minLength(2)]]
+    departureCountry: ['', Validators.required],
+    departureCity: ['', Validators.required],
+    departureAirport: ['', Validators.required],
+    arrivalCountry: ['', Validators.required],
+    arrivalCity: ['', Validators.required],
+    arrivalAirport: ['', Validators.required],
+    passengers: this.fb.array([this.createPassenger()])
   });
 
-  get passangers() {
-    return this.orderForm.get('passangers') as FormArray;
+  get passengers(): FormArray {
+    return this.orderForm.get('passengers') as FormArray;
   }
 
   createPassenger(): FormGroup {
     return this.fb.group({
       name: ['', Validators.required],
-      completed: [false]
+      age: ['', Validators.required],
+      passportValidEnd: [Date.now, Validators.required]
     })
   }
 
-  displayCountryName(country: ICountry): string{
+  displayCountryName(country: ICountry): string {
     return country?.name;
   }
 
-  displayCityName(city: ICity): string{
+  displayCityName(city: ICity): string {
     return city?.name;
   }
 
-  displayAirportName(airport: ICity): string{
+  displayAirportName(airport: ICity): string {
     return airport?.name;
   }
 
   addPassenger() {
-    this.passangers.push(this.createPassenger());
+    this.passengers.push(this.createPassenger());
   }
 
-  // countries
-  
+
 
   ngOnInit(): void {
     forkJoin([
@@ -145,75 +80,83 @@ export class OrderFormComponent implements OnInit {
       this.dataService.getAirports(),
       this.dataService.getAllowedDirections()
     ]).subscribe(([countriesData, citiesData, airportsData, allowedDirectionsData]) => {
-      
+
+      //todo refactor this
+
       this.airports = airportsData;
+      this.allowedDirections = allowedDirectionsData;
 
-      // const allowedCityIds = new Set([
-      //   ...allowedDirectionsData.map(direction => direction.cityFromId),
-      //   ...allowedDirectionsData.map(direction => direction.cityToId)
-      // ]);
-      const allowedCityIds = allowedDirectionsData.reduce((prev: number [], next: IAllowedDirection) => {return [...prev, next.cityFromId, next.cityToId]}, []);
+      //todo maybe should use Set on this to get only uniq in both collections
+      const [citiesFromIds, citiesToIds] = [allowedDirectionsData.map(direction => direction.cityFromId), allowedDirectionsData.map(direction => direction.cityToId)];
 
-      const availableCityIds = new Set(allowedCityIds);
-      
+
+      const availableCityIds = new Set([...citiesFromIds, ...citiesToIds]); //all uniq values from allowed directions
+
+     
+
       const airportCityIds = airportsData.map(airport => airport.cityId);
 
-      this.cities = citiesData.filter(city => airportCityIds.includes(city.id) && availableCityIds.has(city.id));
+      this.airports = airportsData;
 
-      const availableCountries = this.cities.map(city => city.countryId);
+      //realy available cities to select, based on available to select cities getted from allowed directions 
+      //- check that city exists in allowed directions and it has airports 
+      this.cities = citiesData.filter(city => (availableCityIds.has(city.id)) && (airportCityIds.includes(city.id)));
 
-      this.countries = countriesData.filter(country => availableCountries.includes(country.id));
+      const availableCountryIds = this.cities.map(city => city.countryId);
 
-      
-      // allowedIds.push(...allowedDirectionsData.map(dir => dir.cityToId));
-      // this.cities.filter(city => allowedDirectionsData.
+      this.countries = countriesData.filter(country => availableCountryIds.includes(country.id)); //realy available to select countries based on available cities
 
-      // console.log('allowedIds');
-      
-      // console.log(allowedCityIds);
 
-      // console.log('cities ids', this.cities.map(city => city.id));
-      
-      
-      // this.airports =        
+
+      const citiesFrom = this.cities.filter(city => citiesFromIds.includes(city.id));
+      const citiesTo = this.cities.filter(city => citiesToIds.includes(city.id));
+
+      const countryIdsFromCities = new Set(citiesFrom.map(city => city.countryId));
+      const countryIdsToCities = new Set(citiesTo.map(city => city.countryId));
+
+  
+
+      this.filteredDepartureCountries$.next(this.countries.filter(country => countryIdsFromCities.has(country.id)));
+      this.filteredArrivalCountries$.next(this.countries.filter(country => countryIdsToCities.has(country.id)));
     });
 
-    // this.http.get('./assets/countries.json').subscribe((data) => {
-    //   // console.log('cities');
-    //   // console.log(data);
-    //   this.countries = data as Array<ICountry>;
-    // });
+    this.orderForm.get('departureCountry')?.valueChanges
+      .pipe(filter(value => typeof value !== 'string'))
+      .subscribe((data: ICountry) => {
+        // todo need to change something to do it more simple, need to modificate source collections(use midificated copies of source arrays)
+        const newCities = this.cities.filter(city => city.countryId === data.id);
+        const newArrivalCitiesIds = newCities.map(city => city.id);
 
-    // this.http.get('./assets/cities.json').subscribe(data => {
-    //   // console.log('cities');
-    //   // console.log(data);
-    //   this.cities = data as Array<ICity>;
-    // });
+        this.filteredDepartureCities$.next(newCities);
+        const directions = this.allowedDirections.filter(direction => newArrivalCitiesIds.includes(direction.cityFromId)).map(direction => direction.cityToId);
 
-    // this.http.get('./assets/airports.json').subscribe(data => {
-    //   // console.log('cities');
-    //   // console.log(data);
-    //   this.airports = data as Array<IAirport>;
-    // });
+        const arrivalCities = this.cities.filter(city => directions.includes(city.id));
+        const arrivalCountryIds = arrivalCities.map(city => city.countryId);
 
-    this.orderForm.get('departureCountry')?.valueChanges.subscribe(data => {
-      this.filteredCities$.next(this.cities.filter(city => city.countryId === data.id))
-      this.orderForm.controls['departureCity'].reset('');
-      // console.log('data from orderForm, ', data)
-    })
+        const newArrivalCountries = this.countries.filter(country => arrivalCountryIds.includes(country.id));
 
-    this.orderForm.get('departureCity')?.valueChanges.subscribe(data => {
-      const newPorts = this.airports.filter(airport => airport.cityId === data.id);
-      // console.log(newPorts);
+        this.filteredArrivalCountries$.next(newArrivalCountries);
+      });
 
-      // if(newPorts.length === 0){
-      //   console.log(data.id);
-        
-      // }
-      
-      this.filteredAirports$.next(newPorts)
-      // console.log('data from ocity, ', data)
-    })
+    this.orderForm.get('departureCity')?.valueChanges
+      .pipe(filter(value => typeof value !== 'string'))
+      .subscribe((data: ICity) => {
+        this.filteredDepartureAirports$.next(this.airports.filter(airport => airport.cityId === data.id));
+      });
+
+    this.orderForm.get('arrivalCountry')?.valueChanges
+      .pipe(filter(value => typeof value !== 'string'))
+      .subscribe((data: ICountry) => {
+        this.filteredArrivalCities$.next(this.cities.filter(city => city.countryId === data.id));
+      });
+
+    this.orderForm.get('arrivalCity')?.valueChanges
+      .pipe(filter(value => typeof value !== 'string'))
+      .subscribe((data: ICity) => {
+        this.filteredArrivalAirports$.next(this.airports.filter(airport => airport.cityId === data.id));
+      })
+
+    
   }
 
 };

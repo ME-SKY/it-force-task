@@ -6,7 +6,7 @@ const ORDER_DATA_STORAGE_KEY = 'orderData';
 @Injectable({ providedIn: 'root' })
 export class OrderDataService {
 
-  private orderData = new BehaviorSubject(null);
+  private orderData: any = new BehaviorSubject(null);
   currentOrderData = this.orderData.asObservable();
 
   constructor() {
@@ -17,22 +17,37 @@ export class OrderDataService {
   }
 
   updateOrderData(data: any) {
-    console.log('data is update in service', data);
-
-    this.setDataToStorage(data);
+    data && this.setDataToStorage(data);
     this.orderData.next(data);
   }
 
+  cleanLocalStorage(){
+    localStorage.removeItem(ORDER_DATA_STORAGE_KEY);
+    // this.orderData.next(null);
+  }
+
+  getDataFromLocalStorage(){
+    return this.getDataFromStorage();
+  }
+
   private setDataToStorage(data: Object) {
-    // console.log('type', data?.value);
+    console.log('set to storage');
 
     const stringifiedData = JSON.stringify(data);
     localStorage.setItem(ORDER_DATA_STORAGE_KEY, stringifiedData);
   }
 
   private getDataFromStorage() {
+    console.log('get from storage');
+    
     const data = localStorage.getItem(ORDER_DATA_STORAGE_KEY);
-    localStorage.removeItem(ORDER_DATA_STORAGE_KEY);
+
+    if(data){
+      console.log('parsedData', JSON.parse(data));
+    }
+    
+    
+    // 
 
     return data ? JSON.parse(data) : null;
   }

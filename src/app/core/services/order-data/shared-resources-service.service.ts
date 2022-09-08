@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { Airport, AllowedDirection, City, Country, Nationality } from 'src/app/mock.model';
 
-interface Resources {
+export interface Resources {
   countries: Country[],
   cities: City[],
   airports: Airport[],

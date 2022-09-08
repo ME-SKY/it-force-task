@@ -12,13 +12,15 @@ import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {MatDialogModule} from "@angular/material/dialog";
 import { RouterModule, Routes } from '@angular/router';
 import { OrderFormComponent } from './order-form.component';
+import { CreateNewFormDialog } from './create-new-form-dialog/create-new-form-dialog.component';
 
 const routes: Routes = [{ path: '', component: OrderFormComponent }];
 
 @NgModule({
-  declarations: [OrderFormComponent],
+  declarations: [OrderFormComponent, CreateNewFormDialog],
   imports: [
     CommonModule,
     FormsModule, 
@@ -33,11 +35,13 @@ const routes: Routes = [{ path: '', component: OrderFormComponent }];
     MatRadioModule,
     MatSelectModule,
     MatSnackBarModule,
+    MatDialogModule,
     RouterModule.forChild(routes),
   ],
   providers: [],
   exports: [
     OrderFormComponent
-  ]
+  ],
+  entryComponents: [CreateNewFormDialog],
 })
 export class OrderFormModule {}

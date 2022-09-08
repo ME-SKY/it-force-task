@@ -1,0 +1,41 @@
+.order-result{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+
+.travel-direction-info{
+    min-width: 500px;
+    min-height: 150px;
+    background: rgba(0, 0, 255, 0.228);
+    // padding: 15px;
+    // width: 100%;
+    // height: auto;
+}
+
+// .travel-from, .travel-to, .passengers-info{
+//     padding: 15px;
+//     // height: 100%;
+
+//     mat-card{
+//         height: 100%;
+//     }
+// //     // width: 350px;
+// //     // height: 400px;
+// }
+
+// .travel-from, .travel-to {
+//     width: 350px;
+//     height: 400px;
+//     flex: 50%;
+// } 
+
+.passengers-info{
+    background: rgba(0, 0, 255, 0.246);
+    min-width: 400px;
+    min-height: 300px;
+    // flex: 100%;
+    height: auto;
+    // flex: auto
+}

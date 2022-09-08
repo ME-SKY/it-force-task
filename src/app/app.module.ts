@@ -16,6 +16,7 @@ import {MatMomentDateModule} from '@angular/material-moment-adapter';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSelectModule} from '@angular/material/select';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { AppRoutingModule } from './app-routing.module';
 import { OrderFormModule } from './order-form/order-form.module';
 import { OrderResultModule } from './order-result/order-result.module';
@@ -51,6 +52,7 @@ import { SharedResourcesService } from './core/services/order-data/shared-resour
     MatSnackBarModule,
     OrderFormModule,
     OrderResultModule,
+    MatProgressSpinnerModule,
     AppRoutingModule
   ],
   providers: [OrderDataService, SharedResourcesService],

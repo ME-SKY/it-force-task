@@ -1,59 +1,67 @@
-.order-form{
+@mixin display-flex($flow-value) {
+    display: flex;
+    flex-flow: $flow-value;
+}
 
+.order-form {
+    @include display-flex(column nowrap);
     max-width: 700px;
     background: #D9D9D9;
     border-radius: 16px;
     gap: 20px;
     padding: 20px;
-    display: flex;
-    flex-flow: column nowrap; //todo maybe use mixin  - flex-column-nowrap,display flex
-
 }
 
-.departure, .arrival{
-    display: flex;
-    // gap: 20px;
-    flex-flow: column nowrap;
+.departure,
+.arrival {
+    @include display-flex(column nowrap);
     flex: 1;
 }
 
-.travel-details{
-    display: flex;
-    flex-flow: row nowrap;
+.travel-details {
+    @include display-flex(row nowrap);
     gap: 20px;
     justify-content: space-around;
 }
 
-.passengers{
-    border: 0.5px black solid;
+.passengers {
+    @include display-flex(column nowrap);
     border-radius: 8px;
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
 }
 
-.passenger{
-    display: flex;
-    flex-flow: row wrap;
-    gap: 20px;
-    border: 0.5px black solid;
+.passenger {
+    position: relative;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
-    align-items: center;
+
+    & h4 {
+        width: 100;
+        margin: 10px 10px;
+    }
+
+    & button {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .passenger-fields {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        margin: 10px;
+    }
 }
 
-.add-passenger{
+.add-passenger {
     width: fit-content;
 }
 
-.actions{
+.actions {
     display: flex;
     justify-content: center;
-    // .create-order{
-
-    // }
 }
-
-
-
-
-

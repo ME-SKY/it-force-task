@@ -11,10 +11,7 @@ export class CreateNewFormDialog {
 
     constructor(
         private dialogRef: MatDialogRef<CreateNewFormDialog>,
-        // @Inject(MAT_DIALOG_DATA) data: 
-        ) {
-
-        // this.description = data.description;
+    ) {
     }
 
     createNew() {

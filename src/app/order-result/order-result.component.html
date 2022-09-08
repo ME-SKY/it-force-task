@@ -1,34 +1,27 @@
 <div class="order-result" *ngIf="orderData">
-
     <div class="travel-direction-info">
-        <div class="departure-place">
-            {{orderData.departurePlace}}
+        <div class="departure-info">
+            <h4>
+                {{orderData.departurePlace}}
+            </h4>
+            <h4>
+                {{orderData.departureDate}}
+            </h4>
         </div>
         <mat-icon>arrow_right_alt</mat-icon>
-        <div class="arrival-place">
-            {{orderData.arrivalPlace}}
+        <div class="arrival-info">
+            <h4>
+                {{orderData.arrivalPlace}}
+            </h4>
+            <h4>
+                {{orderData.arrivalDate}}
+            </h4>
         </div>
-
-        <!-- <mat-card>
-            <mat-card-title>Вылет</mat-card-title>
-            <mat-card-content>
-                <h4>Country</h4>
-                <h4>City</h4>
-                <h4>Airport</h4>
-            </mat-card-content>
-        </mat-card> -->
     </div>
 
-    <!-- <div class="travel-to">
+    <div class="passengers-info" *ngFor="let passenger of orderData?.passengers; let i = index">
         <mat-card>
-            some
-        </mat-card>
-    </div> -->
-
-    <div class="passengers-info" *ngFor="let passenger of orderData?.passengers">
-        <mat-card>
-            {{passenger.fName}} {{passenger.lName}}
+            Пассажир {{i + 1}}: {{passenger.fName}}  {{passenger.lName}}
         </mat-card>
     </div>
-
 </div>

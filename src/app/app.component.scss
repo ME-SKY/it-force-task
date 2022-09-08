@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: auto;
+    min-height: 100vh;
     height: 100vh;
+    height: 100%;
     width: 100vw;
     background: linear-gradient(180deg, #7593CD 0%, #1184EE 100%);
     padding: 80px;

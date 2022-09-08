@@ -1,8 +1,7 @@
-import { importType } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
 import { forkJoin } from 'rxjs';
 import { MockService } from './mock.service';
-import { Resources, SharedResourcesService } from './core/services/order-data/shared-resources-service.service';
+import { Resources, SharedResourcesService } from './core/services/shared-resources-service.service';
 
 @Component({
   selector: 'app-root',
@@ -44,14 +43,8 @@ export class AppComponent {
          allowedDirectionsData.map(direction => direction.cityToId)
        ];
  
- 
        const availableCityIds = new Set([...citiesFromIds, ...citiesToIds]); //all uniq values from allowed directions
- 
- 
- 
        const airportCityIds = airportsData.map(airport => airport.cityId);
- 
-      //  this.airports = airportsData;
  
        //realy available cities to select, based on available to select cities getted from allowed directions 
        //- check that city exists in allowed directions and it has airports 
@@ -60,24 +53,12 @@ export class AppComponent {
  
        const availableCountryIds = citiesToUse.map(city => city.countryId);
  
-       const countriesToUse = countriesData.filter(country => availableCountryIds.includes(country.id)); //realy available to select countries based on available cities
+       //realy available to select countries based on available cities
+       const countriesToUse = countriesData.filter(country => availableCountryIds.includes(country.id)); 
        resources.countries = countriesToUse;
 
        this.sharedResources.updateData(resources);
        this.resourcesLoaded = true;
- 
-       //part that use in cities
- 
-      //  const citiesFrom = citiesToUse.filter(city => citiesFromIds.includes(city.id));
-      //  const citiesTo = citiesToUse.filter(city => citiesToIds.includes(city.id));
- 
-      //  const countryIdsFromCities = new Set(citiesFrom.map(city => city.countryId));
-      //  const countryIdsToCities = new Set(citiesTo.map(city => city.countryId));
- 
- 
- 
-      //  this.filteredDepartureCountries$.next(countriesToUse.filter(country => countryIdsFromCities.has(country.id)));
-      //  this.filteredArrivalCountries$.next(countriesToUse.filter(country => countryIdsToCities.has(country.id)));
     });
   }
 }

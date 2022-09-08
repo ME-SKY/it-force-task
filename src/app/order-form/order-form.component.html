@@ -1,4 +1,3 @@
-<!-- <div class="order-form"> -->
 <form [formGroup]="orderForm" class="order-form">
     <div class="travel-details">
         <div class="departure">
@@ -40,8 +39,8 @@
             </mat-form-field>
 
             <mat-form-field appearance="fill">
-                <!-- <mat-label>Аэропорт</mat-label> -->
-                <input type="text" placeholder="Время вылета" aria-label="departureDate" matInput
+                <mat-label>Дата вылета</mat-label>
+                <input type="text" placeholder="Дата вылета" aria-label="departureDate" matInput
                     formControlName="departureDate" [matDatepicker]="departureDate" name="departure-date">
                 <mat-hint>MM/DD/YYYY</mat-hint>
                 <mat-datepicker-toggle matSuffix [for]="departureDate"></mat-datepicker-toggle>
@@ -87,8 +86,8 @@
             </mat-form-field>
 
             <mat-form-field appearance="fill">
-                <!-- <mat-label>Аэропорт</mat-label> -->
-                <input type="text" placeholder="Время прибытия" aria-label="arrivalDate" matInput
+                <mat-label>Дата прибытия</mat-label>
+                <input type="text" placeholder="Дата прибытия" aria-label="arrivalDate" matInput
                     formControlName="arrivalDate" [matDatepicker]="arrivalDate" name="arrival-date">
                 <mat-hint>MM/DD/YYYY</mat-hint>
                 <mat-datepicker-toggle matSuffix [for]="arrivalDate"></mat-datepicker-toggle>
@@ -104,7 +103,8 @@
             <div *ngFor="let _ of passengers.controls; index as i" class="passenger">
                 <h4>Пассажир</h4>
 
-                <ng-container [formGroupName]="i">
+                <div class="passenger-fields" [formGroupName]="i">
+                          
                     <mat-form-field>
                         <mat-label>Имя</mat-label>
                         <input matInput type="text" formControlName="fName">
@@ -118,10 +118,6 @@
                     <mat-form-field>
                         <mat-label>Пол</mat-label>
                         <input matInput type="text" formControlName="sex">
-                        <!-- <mat-radio-group aria-label="Выберете ваш пол" formControlName="sex">
-                            <mat-radio-button value="1">M</mat-radio-button>
-                            <mat-radio-button value="2">Ж</mat-radio-button>
-                        </mat-radio-group> -->
                     </mat-form-field>
 
                     <mat-form-field>
@@ -143,8 +139,6 @@
 
                     </mat-form-field>
 
-
-
                     <mat-form-field>
                         <mat-label>Тип документа удостоверяющего личность</mat-label>
                         <mat-select formControlName="documentType">
@@ -160,8 +154,6 @@
                         <input type="text" matInput formControlName="passportNo">
                     </mat-form-field>
 
-
-
                     <mat-form-field>
                         <mat-label>Срок действия документа</mat-label>
                         <input matInput type="text" formControlName="passportDateOfExpire"
@@ -170,21 +162,14 @@
                         <mat-datepicker-toggle matSuffix [for]="passportEndDate"></mat-datepicker-toggle>
                         <mat-datepicker #passportEndDate></mat-datepicker>
                     </mat-form-field>
-                </ng-container>
+                </div>
                 <button (click)="deletePassenger(i)" [disabled]="passengers.controls.length < 2" mat-mini-fab
                     color="primary" aria-label="Example icon button with a menu icon">
                     <mat-icon>delete</mat-icon>
                 </button>
             </div>
         </ng-container>
-        <!-- <div *ngFor="let _ of passengers['controls']; index as i" class="passenger">
-            
-            <div class="passen" formGroupName="passenger">
-                <input type="text" formControlName="name" [name]="i" placeholder="pa">
-                <input type="text" formControlName="age" [name]="i">
-            </div>
-            
-        </div> -->
+
         <button mat-raised-button color="primary" (click)="addPassenger()" class="add-passenger">
             Добавить пассажира
         </button>
@@ -192,16 +177,8 @@
     </div>
 
     <div class="actions">
-        <!-- <ng-container>
-            {{orderForm.errors}}
-        </ng-container> -->
-        <mat-error></mat-error>
-        <!-- [disabled]="!orderForm.valid"  -->
-        <button 
-        
-        (click)="submitFormAction()" mat-raised-button color="primary" type="submit" class="create-order">
+        <button (click)="submitFormAction()" mat-raised-button color="primary" type="submit" class="create-order">
             Создать заказ
         </button>
     </div>
 </form>
-<!-- </div> -->

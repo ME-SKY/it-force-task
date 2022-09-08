@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; min-height: 100vh; overflow-x: hidden;}
 
 *{
     box-sizing: border-box;
 }
 
-
-// .custom-dialog .mat-dialog-container {
-    // padding: 6px;
-//   }
+@mixin display-flex($flow-value) {
+    display: flex;
+    flex-flow: $flow-value;
+}

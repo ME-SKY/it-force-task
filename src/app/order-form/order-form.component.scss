@@ -1,5 +1,6 @@
 .order-form{
 
+    max-width: 700px;
     background: #D9D9D9;
     border-radius: 16px;
     gap: 20px;
@@ -33,7 +34,7 @@
 
 .passenger{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     gap: 20px;
     border: 0.5px black solid;
     border-radius: 8px;
@@ -47,9 +48,9 @@
 .actions{
     display: flex;
     justify-content: center;
-    .create-order{
+    // .create-order{
 
-    }
+    // }
 }
 
 

@@ -4,10 +4,11 @@
         <div class="departure">
             <h4>Вылет</h4>
 
-            <mat-form-field>
+            <mat-form-field appearance="fill">
                 <mat-label>Страна</mat-label>
                 <input type="text" placeholder="Страна" aria-label="departureCountry" matInput
-                    formControlName="departureCountry" [matAutocomplete]="autoDepartureCountry" name="departure-country">
+                    formControlName="departureCountry" [matAutocomplete]="autoDepartureCountry"
+                    name="departure-country">
                 <mat-autocomplete #autoDepartureCountry="matAutocomplete" [displayWith]="displayCountryName">
                     <mat-option *ngFor="let option of filteredDepartureCountries$ | async" [value]="option">
                         {{option.name}}
@@ -15,7 +16,7 @@
                 </mat-autocomplete>
             </mat-form-field>
 
-            <mat-form-field>
+            <mat-form-field appearance="fill">
                 <mat-label>Город</mat-label>
                 <input type="text" placeholder="Город" aria-label="departureCity" matInput
                     formControlName="departureCity" [matAutocomplete]="autoDepartureCity" name="departure-city">
@@ -26,33 +27,44 @@
                 </mat-autocomplete>
             </mat-form-field>
 
-            <mat-form-field>
+            <mat-form-field appearance="fill">
                 <mat-label>Аэропорт</mat-label>
                 <input type="text" placeholder="Аэропорт" aria-label="departureAirport" matInput
-                    formControlName="departureAirport" [matAutocomplete]="autoDepartureAirport" name="departure-airport">
+                    formControlName="departureAirport" [matAutocomplete]="autoDepartureAirport"
+                    name="departure-airport">
                 <mat-autocomplete #autoDepartureAirport="matAutocomplete" [displayWith]="displayAirportName">
                     <mat-option *ngFor="let option of filteredDepartureAirports$ | async" [value]="option">
                         {{option.name}}
                     </mat-option>
                 </mat-autocomplete>
             </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <!-- <mat-label>Аэропорт</mat-label> -->
+                <input type="text" placeholder="Время вылета" aria-label="departureDate" matInput
+                    formControlName="departureDate" [matDatepicker]="departureDate" name="departure-date">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matSuffix [for]="departureDate"></mat-datepicker-toggle>
+                <mat-datepicker #departureDate></mat-datepicker>
+            </mat-form-field>
         </div>
 
         <div class="arrival">
-            <h4>Прибытие/Посадка</h4>
+            <h4>Прибытие</h4>
 
-            <mat-form-field>
+            <mat-form-field appearance="fill">
                 <mat-label>Страна</mat-label>
                 <input type="text" placeholder="Страна" aria-label="arrivalCountry" matInput
                     formControlName="arrivalCountry" [matAutocomplete]="autoArrivalCountry">
-                <mat-autocomplete #autoArrivalCountry="matAutocomplete" [displayWith]="displayCountryName" name="arrival-country">
+                <mat-autocomplete #autoArrivalCountry="matAutocomplete" [displayWith]="displayCountryName"
+                    name="arrival-country">
                     <mat-option *ngFor="let option of filteredArrivalCountries$ | async" [value]="option">
                         {{option.name}}
                     </mat-option>
                 </mat-autocomplete>
             </mat-form-field>
 
-            <mat-form-field>
+            <mat-form-field appearance="fill">
                 <mat-label>Город</mat-label>
                 <input type="text" placeholder="Город" aria-label="arrivalCity" matInput formControlName="arrivalCity"
                     [matAutocomplete]="autoArrivalCity" name="arrival-city">
@@ -63,7 +75,7 @@
                 </mat-autocomplete>
             </mat-form-field>
 
-            <mat-form-field>
+            <mat-form-field appearance="fill">
                 <mat-label>Аэропорт</mat-label>
                 <input type="text" placeholder="Аэропорт" aria-label="arrivalAirport" matInput
                     formControlName="arrivalAirport" [matAutocomplete]="autoArrivalAirport" name="arrival-airport">
@@ -74,35 +86,96 @@
                 </mat-autocomplete>
             </mat-form-field>
 
+            <mat-form-field appearance="fill">
+                <!-- <mat-label>Аэропорт</mat-label> -->
+                <input type="text" placeholder="Время прибытия" aria-label="arrivalDate" matInput
+                    formControlName="arrivalDate" [matDatepicker]="arrivalDate" name="arrival-date">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matSuffix [for]="arrivalDate"></mat-datepicker-toggle>
+                <mat-datepicker #arrivalDate></mat-datepicker>
+            </mat-form-field>
+
         </div>
     </div>
 
 
-    <div class="passengers" >
+    <div class="passengers">
         <ng-container formArrayName="passengers">
             <div *ngFor="let _ of passengers.controls; index as i" class="passenger">
                 <h4>Пассажир</h4>
-                
+
                 <ng-container [formGroupName]="i">
                     <mat-form-field>
                         <mat-label>Имя</mat-label>
-                        <input matInput type="text" formControlName="name">
+                        <input matInput type="text" formControlName="fName">
                     </mat-form-field>
 
                     <mat-form-field>
-                        <mat-label>Возраст</mat-label>
-                        <input matInput type="number" formControlName="age">
+                        <mat-label>Фамилия</mat-label>
+                        <input matInput type="text" formControlName="lName">
                     </mat-form-field>
 
                     <mat-form-field>
-                        <mat-label>Паспорт действителен до</mat-label>
-                        <input matInput type="number" formControlName="age">
-                    </mat-form-field> 
+                        <mat-label>Пол</mat-label>
+                        <input matInput type="text" formControlName="sex">
+                        <!-- <mat-radio-group aria-label="Выберете ваш пол" formControlName="sex">
+                            <mat-radio-button value="1">M</mat-radio-button>
+                            <mat-radio-button value="2">Ж</mat-radio-button>
+                        </mat-radio-group> -->
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <mat-label>Дата рождения</mat-label>
+                        <input matInput type="text" formControlName="birthdate" [matDatepicker]="birthDate">
+                        <mat-hint>MM/DD/YYYY</mat-hint>
+                        <mat-datepicker-toggle matSuffix [for]="birthDate"></mat-datepicker-toggle>
+                        <mat-datepicker #birthDate></mat-datepicker>
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <mat-label>Национальность</mat-label>
+
+                        <mat-select formControlName="nationalityId">
+                            <mat-option *ngFor="let nationality of nationalities" [value]="nationality.id">
+                                {{nationality.name}}
+                            </mat-option>
+                        </mat-select>
+
+                    </mat-form-field>
+
+
+
+                    <mat-form-field>
+                        <mat-label>Тип документа удостоверяющего личность</mat-label>
+                        <mat-select formControlName="documentType">
+                            <mat-option *ngFor="let docType of passengerDocumentTypes" [value]="docType.value">
+                                {{docType.label}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <mat-label>Номер документа</mat-label>
+
+                        <input type="text" matInput formControlName="passportNo">
+                    </mat-form-field>
+
+
+
+                    <mat-form-field>
+                        <mat-label>Срок действия документа</mat-label>
+                        <input matInput type="text" formControlName="passportDateOfExpire"
+                            [matDatepicker]="passportEndDate">
+                        <mat-hint>MM/DD/YYYY</mat-hint>
+                        <mat-datepicker-toggle matSuffix [for]="passportEndDate"></mat-datepicker-toggle>
+                        <mat-datepicker #passportEndDate></mat-datepicker>
+                    </mat-form-field>
                 </ng-container>
-                <button [disabled]="passengers.controls.length < 2" mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
+                <button (click)="deletePassenger(i)" [disabled]="passengers.controls.length < 2" mat-mini-fab
+                    color="primary" aria-label="Example icon button with a menu icon">
                     <mat-icon>delete</mat-icon>
-                  </button>
-              </div>
+                </button>
+            </div>
         </ng-container>
         <!-- <div *ngFor="let _ of passengers['controls']; index as i" class="passenger">
             
@@ -112,12 +185,23 @@
             </div>
             
         </div> -->
-        <button mat-raised-button color="primary"  (click)="addPassenger()" class="add-passenger">Добавить пассажира</button>
-        
+        <button mat-raised-button color="primary" (click)="addPassenger()" class="add-passenger">
+            Добавить пассажира
+        </button>
+
     </div>
 
     <div class="actions">
-        <button mat-raised-button color="primary"  type="submit"  class="create-order">Создать заказ</button>
+        <!-- <ng-container>
+            {{orderForm.errors}}
+        </ng-container> -->
+        <mat-error></mat-error>
+        <!-- [disabled]="!orderForm.valid"  -->
+        <button 
+        
+        (click)="submitFormAction()" mat-raised-button color="primary" type="submit" class="create-order">
+            Создать заказ
+        </button>
     </div>
 </form>
 <!-- </div> -->

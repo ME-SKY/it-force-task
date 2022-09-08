@@ -11,13 +11,30 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { MatInputModule } from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatMomentDateModule} from '@angular/material-moment-adapter';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSelectModule} from '@angular/material/select';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { AppRoutingModule } from './app-routing.module';
+import { OrderFormModule } from './order-form/order-form.module';
+import { OrderResultModule } from './order-result/order-result.module';
+import { CommonModule } from '@angular/common';
+// import { OrderDataServiceModule } from './core/services/order-data/order-data-service.module';
+import { OrderDataService } from './core/services/order-data/order-data-service.service';
+import { SharedResourcesService } from './core/services/order-data/shared-resources-service.service';
+// import { RouterModule } from '@angular/router';
+// import { OrderDataService } from './order-data-service.service';
+
+
 
 
 
 @NgModule({
-  declarations: [AppComponent, OrderFormComponent],
+  declarations: [AppComponent],
   imports: [
-    BrowserModule, 
+    BrowserModule,
+    CommonModule, 
     HttpClientModule, 
     BrowserAnimationsModule, 
     FormsModule, 
@@ -26,9 +43,17 @@ import {MatIconModule} from '@angular/material/icon';
     MatAutocompleteModule,
     MatInputModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatDatepickerModule,
+    MatMomentDateModule,
+    MatRadioModule,
+    MatSelectModule,
+    MatSnackBarModule,
+    OrderFormModule,
+    OrderResultModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [OrderDataService, SharedResourcesService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
